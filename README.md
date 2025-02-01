@@ -21,7 +21,8 @@
 
 <img src="https://raw.githubusercontent.com/konnn04/konnn04/refs/heads/main/github-user-contribution.svg" alt="Snake animation">
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=konnn04&show_icons=true&title_color=423181&text_color=1b4346&locale=en" alt="konnn04" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=konnn04&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=2B5BBD&icon_color=1124BB&text_color=A1A1A1&bg_color=0,000000,130F40" alt="my Github Stats"/>
+</p>
 
 <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=konnn04&theme=tokyonight" alt="mystreak"/></p>
 
