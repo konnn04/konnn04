@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Thanh Trieu</h1>
 <h3 align="center">A IT Student at HCMCOU 2022. App Developer.</h3>
 <img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/23/81/31/2381317a16d677e250efd5cc5fbc0d3d.gif">
-- 🌱 I’m currently learning **ReactJS, ElectronJS, Django,...**
+- 🌱 I’m currently learning Web app, creating open-source project...
 
-- 📝 I regularly write articles on [https://www.facebook.com/profile.php?id=61560452625880](https://www.facebook.com/profile.php?id=61560452625880)
+- 📝 I regularly write articles on [Nguyen Thanh Trieu]([https://www.facebook.com/profile.php?id=61560452625880](https://www.facebook.com/konnn.1011/))
 
 - 📫 How to reach me **trieukon1011@gmall.com**
 
