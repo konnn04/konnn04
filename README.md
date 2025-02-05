@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Thanh Trieu</h1>
 <h3 align="center">A IT Student at HCMCOU 2022. App Developer.</h3>
-<img align="right" alt="Coding" width="400" src="https://i.pinimg.com/originals/23/81/31/2381317a16d677e250efd5cc5fbc0d3d.gif">
+<img align="right" alt="Waka waka" width="400" src="https://i.pinimg.com/originals/02/a0/c1/02a0c19eb362eb7b84e596d21146ccfe.gif">
 - 🌱 I’m currently learning Web app, creating open-source project...
 
 - 📝 I regularly write articles on ([Nguyen Thanh Trieu](https://www.facebook.com/konnn.1011/))
