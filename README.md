@@ -21,10 +21,18 @@
 
 <img src="https://raw.githubusercontent.com/konnn04/konnn04/refs/heads/main/github-user-contribution.svg" alt="Snake animation">
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=konnn04&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=2B5BBD&icon_color=1124BB&text_color=A1A1A1&bg_color=0,000000,130F40" alt="my Github Stats"/>
+<p>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=konnn04&amp;theme=tokyonight&amp;show_icons=true&amp;hide_border=true&amp;count_private=true" alt="my Github Streak stats" width=400>
 </p>
 
-<p><img src="https://streak-stats.demolab.com/demo/preview.php?user=konnn04&theme=tokyonight&hide_border=true" alt="mystreak"/></p>
+<p>
+  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=konnn04&amp;theme=tokyonight&amp;hide_border=true" alt="my Github Streak stats" width=400>
+</p>
+
+<p>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=konnn04&theme=tokyonight&hide_border=true&layout=donut&langs_count=10&hide=html,%20css" alt="my Github Streak stats" width=400>
+</p>
+
 
 <a href="https://readme-jokes.vercel.app"><img align="center" src="https://readme-jokes.vercel.app/api" alt="README Jokes"></a>
 
