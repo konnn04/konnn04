@@ -80,12 +80,18 @@ async def main() -> None:
     """
     Generate all badges
     """
+    print("Starting generate_images.py script...")
     access_token = os.getenv("ACCESS_TOKEN")
     if not access_token:
         raise Exception("A personal access token is required to proceed!")
+    
     user = os.getenv("GITHUB_ACTOR")
     if user is None:
-        raise RuntimeError("Environment variable GITHUB_ACTOR must be set.")
+        print("Warning: GITHUB_ACTOR not set, trying to use repository owner")
+        user = "konnn04"  # Fallback to your username
+        
+    print(f"Generating stats for user: {user}")
+    
     exclude_repos = os.getenv("EXCLUDED")
     excluded_repos = (
         {x.strip() for x in exclude_repos.split(",")} if exclude_repos else None

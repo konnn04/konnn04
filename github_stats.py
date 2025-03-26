@@ -41,6 +41,7 @@ class Queries(object):
                     "https://api.github.com/graphql",
                     headers=headers,
                     json={"query": generated_query},
+                    timeout=30  # Add timeout
                 )
             result = await r_async.json()
             if result is not None:
@@ -52,6 +53,7 @@ class Queries(object):
                     "https://api.github.com/graphql",
                     headers=headers,
                     json={"query": generated_query},
+                    timeout=30  # Add timeout
                 )
                 result = r_requests.json()
                 if result is not None:
