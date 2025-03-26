@@ -4,7 +4,6 @@ on:
   schedule:
     # 30 minutes
     - cron: '*/30 * * * *'
-       
   workflow_dispatch:
 
 permissions:
@@ -28,8 +27,6 @@ jobs:
           TARGET_FILE: ./README.md
           COMMIT_NAME: github-actions[bot]
           COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com
-          FORMAT: '### %time% %title% %link%'
-          TIME_FORMAT: 'HH.mm DD.MM.YYYY'
 
       - name: Commit activity updates
         run: |

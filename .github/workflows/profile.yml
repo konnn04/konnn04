@@ -38,10 +38,10 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin main-2rd --rebase
           git add github-snake.svg github-snake-dark.svg
           git commit -m 'Update snake animation' || true
-          git push origin main-2rd || git pull --rebase origin main-2rd && git push origin main-2rd
+          git pull --rebase origin main-2rd || true
+          git push origin main-2rd || { git pull origin main-2rd --no-rebase && git push origin main-2rd; }
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
@@ -74,7 +74,7 @@ jobs:
       - name: Generate GitHub stats
         run: |
           echo "Starting stats generation..."
-          git pull origin main-2rd
+          git pull origin main-2rd || true
           python3 -c "import os; print(f'Working directory: {os.getcwd()}'); print(f'Files: {os.listdir()}')"
           python3 generate_images.py
           echo "Stats generation complete!"
@@ -89,7 +89,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin main-2rd --rebase
           git add generated/
           git commit -m 'Update stats images' || true
-          git push origin main-2rd || git pull --rebase origin main-2rd && git push origin main-2rd
+          git pull --no-rebase origin main-2rd || true
+          git push origin main-2rd || { git reset --hard origin/main-2rd && git pull origin main-2rd && git add generated/ && git commit -m 'Update stats images' && git push origin main-2rd; }
