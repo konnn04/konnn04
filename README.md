@@ -1,3 +1,5 @@
+![mirai](https://github.com/user-attachments/assets/d32ad73b-f0d0-455d-aa4f-61276e8d0fa5)
+
 <div align="center">
 <img src="./generated/overview.svg"><img src="./generated/languages.svg">
 </div>
