@@ -95,8 +95,6 @@ jobs:
   activity:
     needs: stats
     runs-on: ubuntu-latest
-    # Only run this job for schedule and workflow_dispatch events
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     steps:
       - uses: actions/checkout@v4
         with:
@@ -109,6 +107,10 @@ jobs:
         with:
           COMMIT_MSG: 'Update recent activity'
           MAX_LINES: 5
+          TARGET_FILE:  ./README.md
+          # Force use token even on push events
+          COMMIT_NAME: github-actions[bot]
+          COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com
 
       - name: Commit activity updates
         run: |
