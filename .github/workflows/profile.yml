@@ -4,8 +4,8 @@ on:
   push:
     branches: [ main-2rd ]
   schedule:
-    # 30 minutes
-    - cron: '*/30 * * * *'
+    # Each 1 hour run the workflow
+    - cron: '0 * * * *'
        
   workflow_dispatch:
 
