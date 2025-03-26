@@ -1,11 +1,6 @@
 name: GitHub Activity Update
 
 on:
-  workflow_run:
-    workflows: ["GitHub Profile Stats"]
-    types:
-      - completed
-    branches: [main-2rd]
   schedule:
     # 30 minutes
     - cron: '*/30 * * * *'
