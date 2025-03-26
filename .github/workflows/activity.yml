@@ -22,6 +22,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull origin main-2rd --rebase  # Add this line
           git add README.md
           git commit -m 'Update GitHub activity' || true
           git push origin main-2rd
