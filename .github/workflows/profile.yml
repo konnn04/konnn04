@@ -1,4 +1,4 @@
-name: GitHub Profile
+name: GitHub Profile Stats
 
 on:
   push:
@@ -82,7 +82,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_ACTOR: ${{ github.repository_owner }}
           EXCLUDE_FORKED_REPOS: true
-          EXCLUDED_LANGS: "HTML,CSS,SCSS,Dockerfile,Shell,Makefile"
+          EXCLUDED_LANGS: "HTML, CSS, SCSS, Dockerfile, Shell, Makefile"
           
       - name: Commit stats images
         run: |
@@ -90,33 +90,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add generated/
           git commit -m 'Update stats images' || true
-          git push origin main-2rd
-
-  activity:
-    needs: stats
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main-2rd
-          fetch-depth: 0
-
-      - uses: jamesgeorge007/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: 'Update recent activity'
-          MAX_LINES: 5
-          TARGET_FILE:  ./README.md
-          # Force use token even on push events
-          COMMIT_NAME: github-actions[bot]
-          COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com
-
-      - name: Commit activity updates
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin main-2rd --rebase
-          git add README.md
-          git commit -m 'Update GitHub activity' || true
           git push origin main-2rd
