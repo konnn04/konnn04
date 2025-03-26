@@ -84,7 +84,8 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_ACTOR: ${{ github.repository_owner }}  # Add this line
         EXCLUDE_FORKED_REPOS: true
-
+        EXCLUDED_LANGS: "HTML, CSS, SCSS, Dockerfile, Shell, Makefile"
+        
     - name: Commit stats images
       run: |
         git config --global user.name "github-actions[bot]"

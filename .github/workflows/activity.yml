@@ -8,21 +8,26 @@ on:
 jobs:
   update-activity:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main-2rd
 
-      - uses: cheesits456/github-activity-readme@16bd144b812ce901e0693fee5c36c02e75e6b4a7
+      - uses: jamesgeorge007/github-activity-readme@master
         env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: 'Update recent activity'
+          MAX_LINES: 5
+          TARGET_FILE: README.md
 
       - name: Commit activity updates
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull origin main-2rd --rebase  # Add this line
+          git pull origin main-2rd --rebase
           git add README.md
           git commit -m 'Update GitHub activity' || true
           git push origin main-2rd

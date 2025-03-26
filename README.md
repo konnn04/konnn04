@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./media/mirai.gif" style="width=100%; align=center" alt=Profile Image />
+    <img src="./media/mirai.gif" style="width: 100%;" alt="Profile Image" />
 </div>
 
 ## Hi there 
