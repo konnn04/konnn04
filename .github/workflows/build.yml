@@ -70,7 +70,7 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add .
         git commit -m 'Update stats images' || true
-        git push --force
+        git push --force origin main-2rd
 
   activity:
     needs: stats
