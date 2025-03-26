@@ -24,10 +24,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           COMMIT_MSG: 'Update recent activity'
-          MAX_LINES: 5
-          TARGET_FILE:  ./README.md
+          MAX_LINES: 10
+          TARGET_FILE: ./README.md
           COMMIT_NAME: github-actions[bot]
           COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com
+          FORMAT: '### %time% %title% %link%'
+          TIME_FORMAT: 'HH.mm DD.MM.YYYY'
 
       - name: Commit activity updates
         run: |
@@ -36,4 +38,4 @@ jobs:
           git pull origin main-2rd --rebase
           git add README.md
           git commit -m 'Update GitHub activity' || true
-          git push origin main-2rd
+          git push origin main-2rd || git pull --rebase origin main-2rd && git push origin main-2rd
