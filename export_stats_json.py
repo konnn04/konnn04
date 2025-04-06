@@ -120,11 +120,28 @@ async def scrape_pinned_repos(session: aiohttp.ClientSession, username: str) -> 
                 html = await response.text()
                 soup = BeautifulSoup(html, 'html.parser')
                 
-                # Find all pinned repository containers
-                pinned_items = soup.select('div[data-repository-hovercards-enabled] article.pinned-item-list-item')
+                # Try multiple different selectors that GitHub might be using
+                selectors = [
+                    'div[data-repository-hovercards-enabled] article.pinned-item-list-item',
+                    'ol.d-flex.flex-wrap li.mb-3',
+                    'div.js-pinned-items-reorder-container ol li',
+                    'div.pinned-item-list-item-content',
+                    '.js-pinned-items-reorder-container .pinned-item-list-item'
+                ]
+                
+                pinned_items = []
+                for selector in selectors:
+                    items = soup.select(selector)
+                    if items:
+                        print(f"Found pinned items using selector: {selector}")
+                        pinned_items = items
+                        break
                 
                 if not pinned_items:
-                    print("No pinned repositories found in GitHub profile HTML")
+                    # Save HTML for debugging
+                    with open("github_profile.html", "w", encoding="utf-8") as f:
+                        f.write(html)
+                    print("No pinned repositories found in GitHub profile HTML (saved profile HTML for debugging)")
                     return []
                     
                 print(f"Found {len(pinned_items)} pinned repositories via HTML scraping")

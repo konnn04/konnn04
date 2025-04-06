@@ -85,9 +85,11 @@ jobs:
           EXCLUDE_FORKED_REPOS: true
           EXCLUDED_LANGS: "HTML, CSS, SCSS, Dockerfile, Shell, Makefile"
           
-      - name: Generate GitHub stats JSON
+      - name: Generate GitHub stats JSON with debugging
         run: |
-          echo "Starting JSON stats generation..."
+          echo "Starting JSON stats generation with debug..."
+          # Try to directly inspect the HTML structure
+          python3 -c "import requests; html = requests.get('https://github.com/konnn04').text; open('profile.html', 'w').write(html); print('Profile HTML saved')"
           python3 export_stats_json.py
           echo "JSON stats generation complete!"
         env:
@@ -95,7 +97,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_ACTOR: ${{ github.repository_owner }}
           EXCLUDE_FORKED_REPOS: true
-          EXCLUDED_LANGS: "HTML, CSS, SCSS, Dockerfile, Shell, Makefile"
+          EXCLUDED_LANGS: "CSS, SCSS, Dockerfile, Shell, Makefile"
       
       - name: Commit stats images
         run: |
