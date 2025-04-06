@@ -37,7 +37,8 @@ async def fetch_additional_stats(queries: Queries) -> dict:
           totalCommitContributions
           restrictedContributionsCount
         }}
-        pinnedItems(first: 6, types: REPOSITORY) {{
+        pinnedItems(first: 6, types: [REPOSITORY]) {{
+          totalCount
           nodes {{
             ... on Repository {{
               name
@@ -60,7 +61,13 @@ async def fetch_additional_stats(queries: Queries) -> dict:
     """
     
     result = await queries.query(query)
-    return result.get("data", {}).get("viewer", {})
+    viewer_data = result.get("data", {}).get("viewer", {})
+    
+    # Add debug output to check pinned items
+    pinned_items = viewer_data.get("pinnedItems", {})
+    print(f"Pinned items count: {pinned_items.get('totalCount', 0)}")
+    
+    return viewer_data
 
 async def export_stats_json() -> None:
     """Generate a JSON file with GitHub stats"""
@@ -103,6 +110,45 @@ async def export_stats_json() -> None:
         # Fetch additional stats using the same queries object
         additional_stats = await fetch_additional_stats(s.queries)
         
+        # Debug output
+        print(f"Additional stats keys: {list(additional_stats.keys())}")
+        
+        # Check for pinned items specifically
+        pinned_items = additional_stats.get("pinnedItems", {})
+        pinned_nodes = pinned_items.get("nodes", [])
+        print(f"Pinned items found: {len(pinned_nodes)}")
+        
+        # Alternative approach to get user repositories if pinned items are empty
+        if not pinned_nodes:
+            print("No pinned repositories found, trying to get top repositories instead...")
+            # Query for user's top repositories
+            top_repos_query = """
+            {
+              viewer {
+                repositories(first: 6, orderBy: {field: STARGAZERS, direction: DESC}, privacy: PUBLIC) {
+                  nodes {
+                    name
+                    nameWithOwner
+                    description
+                    url
+                    stargazerCount
+                    forkCount
+                    primaryLanguage {
+                      name
+                      color
+                    }
+                    isPrivate
+                    updatedAt
+                  }
+                }
+              }
+            }
+            """
+            top_repos_result = await s.queries.query(top_repos_query)
+            top_repos = top_repos_result.get("data", {}).get("viewer", {}).get("repositories", {}).get("nodes", [])
+            pinned_nodes = top_repos
+            print(f"Found {len(pinned_nodes)} top repositories as alternatives")
+        
         # Build stats object
         stats_data = {
             "username": user,
@@ -136,7 +182,7 @@ async def export_stats_json() -> None:
                     "is_private": repo.get("isPrivate"),
                     "updated_at": repo.get("updatedAt")
                 }
-                for repo in additional_stats.get("pinnedItems", {}).get("nodes", [])
+                for repo in pinned_nodes
             ]
         }
         
