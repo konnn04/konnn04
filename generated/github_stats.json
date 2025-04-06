@@ -1,9 +1,9 @@
 {
   "username": "konnn04",
   "name": "Trieu Nguyen Thanh",
-  "generated_at": "2025-04-06T13:26:21.978414",
+  "generated_at": "2025-04-06T14:16:40.769850",
   "stats": {
-    "total_stars": 17,
+    "total_stars": 18,
     "total_forks": 5,
     "total_contributions": 1123,
     "total_repositories": 58,
@@ -18,24 +18,6 @@
     "views": 1127
   },
   "languages": {
-    "TypeScript": {
-      "size": 378328,
-      "occurrences": 5,
-      "color": "#3178c6",
-      "prop": 7.700084077962313
-    },
-    "JavaScript": {
-      "size": 1145707,
-      "occurrences": 37,
-      "color": "#f1e05a",
-      "prop": 23.31849672429735
-    },
-    "HTML": {
-      "size": 1239393,
-      "occurrences": 38,
-      "color": "#e34c26",
-      "prop": 25.22528151666793
-    },
     "Python": {
       "size": 659586,
       "occurrences": 12,
@@ -47,6 +29,24 @@
       "occurrences": 1,
       "color": "#ff3e00",
       "prop": 1.538905545502338
+    },
+    "HTML": {
+      "size": 1239393,
+      "occurrences": 38,
+      "color": "#e34c26",
+      "prop": 25.22528151666793
+    },
+    "JavaScript": {
+      "size": 1145707,
+      "occurrences": 37,
+      "color": "#f1e05a",
+      "prop": 23.31849672429735
+    },
+    "TypeScript": {
+      "size": 378328,
+      "occurrences": 5,
+      "color": "#3178c6",
+      "prop": 7.700084077962313
     },
     "Java": {
       "size": 222961,
@@ -119,7 +119,7 @@
       "forks": 0,
       "language": {
         "name": "TypeScript",
-        "color": "#1f91c5"
+        "color": "#-452ae"
       },
       "is_private": false,
       "updated_at": "2025-03-27T04:50:49Z"
@@ -133,7 +133,7 @@
       "forks": 2,
       "language": {
         "name": "TypeScript",
-        "color": "#1f91c5"
+        "color": "#-452ae"
       },
       "is_private": false,
       "updated_at": "2025-04-06T13:24:06Z"
@@ -147,7 +147,7 @@
       "forks": 2,
       "language": {
         "name": "HTML",
-        "color": "#644d5b"
+        "color": "#693d7c"
       },
       "is_private": false,
       "updated_at": "2025-02-24T07:33:41Z"
@@ -161,7 +161,7 @@
       "forks": 0,
       "language": {
         "name": "HTML",
-        "color": "#644d5b"
+        "color": "#693d7c"
       },
       "is_private": false,
       "updated_at": "2025-01-13T13:05:21Z"
@@ -175,7 +175,7 @@
       "forks": 0,
       "language": {
         "name": "Python",
-        "color": "#-6ae22"
+        "color": "#-45f43"
       },
       "is_private": false,
       "updated_at": "2025-01-12T20:09:08Z"
@@ -189,7 +189,7 @@
       "forks": 0,
       "language": {
         "name": "JavaScript",
-        "color": "#3061d5"
+        "color": "#fdd6e5"
       },
       "is_private": false,
       "updated_at": "2025-03-19T18:17:28Z"
