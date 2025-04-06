@@ -85,6 +85,18 @@ jobs:
           EXCLUDE_FORKED_REPOS: true
           EXCLUDED_LANGS: "HTML, CSS, SCSS, Dockerfile, Shell, Makefile"
           
+      - name: Generate GitHub stats JSON
+        run: |
+          echo "Starting JSON stats generation..."
+          python3 export_stats_json.py
+          echo "JSON stats generation complete!"
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ACTOR: ${{ github.repository_owner }}
+          EXCLUDE_FORKED_REPOS: true
+          EXCLUDED_LANGS: "HTML, CSS, SCSS, Dockerfile, Shell, Makefile"
+      
       - name: Commit stats images
         run: |
           git config --global user.name "github-actions[bot]"
