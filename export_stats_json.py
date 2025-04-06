@@ -93,6 +93,21 @@ async def fetch_additional_stats(queries: Queries) -> dict:
     
     return viewer_data
 
+async def fetch_berrysauce_pinned(session: aiohttp.ClientSession, username: str) -> list:
+    """Fetch pinned repositories from berrysauce.dev API"""
+    try:
+        async with session.get(f"https://pinned.berrysauce.dev/get/{username}", timeout=10) as response:
+            if response.status == 200:
+                data = await response.json()
+                print(f"Berrysauce API response: {data.keys() if isinstance(data, dict) else 'Not a dict'}")
+                return data.get("repos", []) if isinstance(data, dict) else []
+            else:
+                print(f"Berrysauce API returned status code: {response.status}")
+                return []
+    except Exception as e:
+        print(f"Error fetching from berrysauce API: {e}")
+        return []
+
 async def export_stats_json() -> None:
     """Generate a JSON file with GitHub stats"""
     access_token = os.getenv("ACCESS_TOKEN")
@@ -174,9 +189,51 @@ async def export_stats_json() -> None:
             except Exception as e:
                 print(f"Error fetching pinned repos via REST: {e}")
         
-        # If still no pinned items, use top repos as a fallback
+        # If still no pinned items, try berrysauce.dev API as another fallback
         if not pinned_nodes:
-            print("No pinned repositories found via REST, trying top starred repos...")
+            print("No pinned repositories found via REST, trying berrysauce.dev API...")
+            berrysauce_repos = await fetch_berrysauce_pinned(session, user)
+            
+            if berrysauce_repos and len(berrysauce_repos) > 0:
+                print(f"Found {len(berrysauce_repos)} pinned repositories via berrysauce.dev API")
+                
+                # Get more details for these repos using GitHub API
+                detailed_repos = []
+                for berry_repo in berrysauce_repos:
+                    repo_owner = berry_repo.get("owner", "")
+                    repo_name = berry_repo.get("name", "")
+                    if repo_owner and repo_name:
+                        try:
+                            # Get detailed info from GitHub
+                            detail = await s.queries.query_rest(f"/repos/{repo_owner}/{repo_name}")
+                            if detail:
+                                detailed_repos.append(detail)
+                        except Exception as e:
+                            print(f"Error fetching details for {repo_owner}/{repo_name}: {e}")
+                
+                if detailed_repos:
+                    # Format the repo data to match the GraphQL format
+                    pinned_nodes = [
+                        {
+                            "name": repo.get("name"),
+                            "nameWithOwner": repo.get("full_name"),
+                            "description": repo.get("description"),
+                            "url": repo.get("html_url"),
+                            "stargazerCount": repo.get("stargazers_count", 0),
+                            "forkCount": repo.get("forks_count", 0),
+                            "primaryLanguage": {
+                                "name": repo.get("language"),
+                                "color": "#" + format(hash(repo.get("language") or ""), '06x')[0:6]
+                            } if repo.get("language") else None,
+                            "isPrivate": repo.get("private", False),
+                            "updatedAt": repo.get("updated_at")
+                        }
+                        for repo in detailed_repos
+                    ]
+        
+        # If still no pinned items, use top repos as a last fallback
+        if not pinned_nodes:
+            print("No pinned repositories found via berrysauce.dev, trying top starred repos...")
             # Get all repos from the user
             rest_repo_query = f"/users/{user}/repos?sort=updated&per_page=100"
             all_repos = await s.queries.query_rest(rest_repo_query)
@@ -230,15 +287,15 @@ async def export_stats_json() -> None:
                     "name": repo.get("name"),
                     "full_name": repo.get("nameWithOwner"),
                     "description": repo.get("description"),
-                    "url": repo.get("url"),
-                    "stars": repo.get("stargazerCount"),
-                    "forks": repo.get("forkCount"),
+                    "url": repo.get("url", repo.get("html_url")),
+                    "stars": repo.get("stargazerCount", 0),
+                    "forks": repo.get("forkCount", 0),
                     "language": {
                         "name": repo.get("primaryLanguage", {}).get("name"),
                         "color": repo.get("primaryLanguage", {}).get("color")
                     } if repo.get("primaryLanguage") else None,
-                    "is_private": repo.get("isPrivate"),
-                    "updated_at": repo.get("updatedAt")
+                    "is_private": repo.get("isPrivate", False),
+                    "updated_at": repo.get("updatedAt", "")
                 }
                 for repo in pinned_nodes
             ]
