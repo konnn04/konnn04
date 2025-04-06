@@ -15,7 +15,7 @@ async def fetch_additional_stats(queries: Queries) -> dict:
     current_year = now.year
     last_year = current_year - 1
     
-    # Define GraphQL query for additional stats
+    # Define GraphQL query for additional stats including pinned repositories
     query = f"""
     {{
       viewer {{
@@ -57,15 +57,39 @@ async def fetch_additional_stats(queries: Queries) -> dict:
           }}
         }}
       }}
+      user(login: "{queries.username}") {{
+        pinnedItems(first: 6, types: [REPOSITORY]) {{
+          totalCount
+          nodes {{
+            ... on Repository {{
+              name
+              nameWithOwner
+              description
+              url
+              stargazerCount
+              forkCount
+              primaryLanguage {{
+                name
+                color
+              }}
+              isPrivate
+              updatedAt
+            }}
+          }}
+        }}
+      }}
     }}
     """
     
     result = await queries.query(query)
-    viewer_data = result.get("data", {}).get("viewer", {})
+    data = result.get("data", {})
+    viewer_data = data.get("viewer", {})
     
-    # Add debug output to check pinned items
-    pinned_items = viewer_data.get("pinnedItems", {})
-    print(f"Pinned items count: {pinned_items.get('totalCount', 0)}")
+    # Try to get pinned items from viewer first, then from user object if available
+    if not viewer_data.get("pinnedItems", {}).get("nodes", []):
+        user_data = data.get("user", {})
+        if user_data and user_data.get("pinnedItems", {}).get("nodes", []):
+            viewer_data["pinnedItems"] = user_data.get("pinnedItems", {})
     
     return viewer_data
 
@@ -113,41 +137,75 @@ async def export_stats_json() -> None:
         # Debug output
         print(f"Additional stats keys: {list(additional_stats.keys())}")
         
-        # Check for pinned items specifically
+        # Check for pinned items directly from GraphQL query
         pinned_items = additional_stats.get("pinnedItems", {})
         pinned_nodes = pinned_items.get("nodes", [])
-        print(f"Pinned items found: {len(pinned_nodes)}")
+        print(f"Pinned items found from GraphQL: {len(pinned_nodes)}")
         
-        # Alternative approach to get user repositories if pinned items are empty
+        # If no pinned items found, try using the REST API as a fallback
         if not pinned_nodes:
-            print("No pinned repositories found, trying to get top repositories instead...")
-            # Query for user's top repositories
-            top_repos_query = """
-            {
-              viewer {
-                repositories(first: 6, orderBy: {field: STARGAZERS, direction: DESC}, privacy: PUBLIC) {
-                  nodes {
-                    name
-                    nameWithOwner
-                    description
-                    url
-                    stargazerCount
-                    forkCount
-                    primaryLanguage {
-                      name
-                      color
+            print("No pinned repositories found, trying REST API fallback...")
+            
+            # First, try the pinned items endpoint if available
+            try:
+                # First try to get pinned items from the user profile
+                pinned_rest_query = f"/users/{user}/pinned"
+                pinned_rest_result = await s.queries.query_rest(pinned_rest_query)
+                if pinned_rest_result and isinstance(pinned_rest_result, list) and len(pinned_rest_result) > 0:
+                    print(f"Found {len(pinned_rest_result)} pinned repositories via REST API")
+                    # Format the REST API data to match the GraphQL format
+                    pinned_nodes = [
+                        {
+                            "name": repo.get("name"),
+                            "nameWithOwner": repo.get("full_name"),
+                            "description": repo.get("description"),
+                            "url": repo.get("html_url"),
+                            "stargazerCount": repo.get("stargazers_count"),
+                            "forkCount": repo.get("forks_count"),
+                            "primaryLanguage": {
+                                "name": repo.get("language"),
+                                "color": "#" + format(hash(repo.get("language") or ""), '06x')[0:6]
+                            } if repo.get("language") else None,
+                            "isPrivate": repo.get("private"),
+                            "updatedAt": repo.get("updated_at")
+                        }
+                        for repo in pinned_rest_result
+                    ]
+            except Exception as e:
+                print(f"Error fetching pinned repos via REST: {e}")
+        
+        # If still no pinned items, use top repos as a fallback
+        if not pinned_nodes:
+            print("No pinned repositories found via REST, trying top starred repos...")
+            # Get all repos from the user
+            rest_repo_query = f"/users/{user}/repos?sort=updated&per_page=100"
+            all_repos = await s.queries.query_rest(rest_repo_query)
+            
+            # Sort by stars to get the most popular ones
+            if all_repos and isinstance(all_repos, list):
+                all_repos.sort(key=lambda x: x.get('stargazers_count', 0), reverse=True)
+                # Take the top 6
+                top_repos = all_repos[:6]
+                print(f"Found {len(top_repos)} top repositories as alternatives")
+                
+                # Format REST API data to match GraphQL format
+                pinned_nodes = [
+                    {
+                        "name": repo.get("name"),
+                        "nameWithOwner": repo.get("full_name"),
+                        "description": repo.get("description"),
+                        "url": repo.get("html_url"),
+                        "stargazerCount": repo.get("stargazers_count", 0),
+                        "forkCount": repo.get("forks_count", 0),
+                        "primaryLanguage": {
+                            "name": repo.get("language"),
+                            "color": "#" + format(hash(repo.get("language") or ""), '06x')[0:6]
+                        } if repo.get("language") else None,
+                        "isPrivate": repo.get("private", False),
+                        "updatedAt": repo.get("updated_at")
                     }
-                    isPrivate
-                    updatedAt
-                  }
-                }
-              }
-            }
-            """
-            top_repos_result = await s.queries.query(top_repos_query)
-            top_repos = top_repos_result.get("data", {}).get("viewer", {}).get("repositories", {}).get("nodes", [])
-            pinned_nodes = top_repos
-            print(f"Found {len(pinned_nodes)} top repositories as alternatives")
+                    for repo in top_repos
+                ]
         
         # Build stats object
         stats_data = {
