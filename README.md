@@ -13,9 +13,9 @@
 - **Languages**: `Python`, `JS` 🐍
 - **Web, Discord Bot Developer** 💻
 
+## Discord
 
-
-
+[![Discord Presence](https://lanyard.cnrad.dev/api/732157441889927239)](https://discord.com/users/732157441889927239)
 
 ## GitHub Stats
 <picture>

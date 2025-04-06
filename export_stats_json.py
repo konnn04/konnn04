@@ -3,8 +3,10 @@
 import asyncio
 import json
 import os
+import re
 from datetime import datetime, timedelta
 import aiohttp
+from bs4 import BeautifulSoup
 
 from github_stats import Stats, Queries
 
@@ -106,6 +108,69 @@ async def fetch_berrysauce_pinned(session: aiohttp.ClientSession, username: str)
                 return []
     except Exception as e:
         print(f"Error fetching from berrysauce API: {e}")
+        return []
+
+async def scrape_pinned_repos(session: aiohttp.ClientSession, username: str) -> list:
+    """Directly scrape pinned repositories from GitHub profile page"""
+    try:
+        print(f"Attempting to scrape pinned repos directly from GitHub profile for {username}...")
+        
+        async with session.get(f"https://github.com/{username}", timeout=30) as response:
+            if response.status == 200:
+                html = await response.text()
+                soup = BeautifulSoup(html, 'html.parser')
+                
+                # Find all pinned repository containers
+                pinned_items = soup.select('div[data-repository-hovercards-enabled] article.pinned-item-list-item')
+                
+                if not pinned_items:
+                    print("No pinned repositories found in GitHub profile HTML")
+                    return []
+                    
+                print(f"Found {len(pinned_items)} pinned repositories via HTML scraping")
+                
+                scraped_repos = []
+                for item in pinned_items:
+                    # Extract repo information
+                    repo_name = item.select_one('span.repo').text.strip() if item.select_one('span.repo') else ""
+                    repo_owner = username
+                    
+                    # Sometimes the owner/name might be in a different format
+                    full_name_elem = item.select_one('a[href*="/"]')
+                    if full_name_elem and '/' in full_name_elem.get('href', ''):
+                        full_path = full_name_elem.get('href', '').strip('/')
+                        parts = full_path.split('/')
+                        if len(parts) >= 2:
+                            repo_owner = parts[0]
+                            repo_name = parts[1]
+                    
+                    # Extract description
+                    description = item.select_one('p.pinned-item-desc')
+                    description_text = description.text.strip() if description else ""
+                    
+                    # Extract language
+                    language_elem = item.select_one('span[itemprop="programmingLanguage"]')
+                    language = language_elem.text.strip() if language_elem else None
+                    
+                    # Extract language color
+                    color_elem = item.select_one('span.repo-language-color')
+                    color = color_elem.get('style', '').replace('background-color:', '').strip() if color_elem else '#000000'
+                    
+                    # Add to scraped repos
+                    scraped_repos.append({
+                        "name": repo_name,
+                        "owner": repo_owner,
+                        "description": description_text,
+                        "language": language,
+                        "color": color
+                    })
+                
+                return scraped_repos
+            else:
+                print(f"GitHub profile page returned status code: {response.status}")
+                return []
+    except Exception as e:
+        print(f"Error scraping GitHub profile: {e}")
         return []
 
 async def export_stats_json() -> None:
@@ -231,9 +296,69 @@ async def export_stats_json() -> None:
                         for repo in detailed_repos
                     ]
         
+        # If still no pinned items, try direct web scraping
+        if not pinned_nodes:
+            print("No pinned repositories found via APIs, trying direct web scraping...")
+            scraped_repos = await scrape_pinned_repos(session, user)
+            
+            if scraped_repos and len(scraped_repos) > 0:
+                print(f"Found {len(scraped_repos)} pinned repositories via web scraping")
+                
+                # Get more details for these repos using GitHub API
+                detailed_repos = []
+                for scraped_repo in scraped_repos:
+                    repo_owner = scraped_repo.get("owner", user)
+                    repo_name = scraped_repo.get("name", "")
+                    if repo_owner and repo_name:
+                        try:
+                            # Get detailed info from GitHub
+                            detail = await s.queries.query_rest(f"/repos/{repo_owner}/{repo_name}")
+                            if detail:
+                                # Add scraping-specific info if API is missing it
+                                if not detail.get("language") and scraped_repo.get("language"):
+                                    detail["language"] = scraped_repo.get("language")
+                                    detail["language_color"] = scraped_repo.get("color", "#000000")
+                                detailed_repos.append(detail)
+                        except Exception as e:
+                            print(f"Error fetching details for {repo_owner}/{repo_name}: {e}")
+                            
+                            # If API fails, create a basic record from scraped data
+                            detailed_repos.append({
+                                "name": repo_name,
+                                "full_name": f"{repo_owner}/{repo_name}",
+                                "description": scraped_repo.get("description", ""),
+                                "html_url": f"https://github.com/{repo_owner}/{repo_name}",
+                                "stargazers_count": 0,
+                                "forks_count": 0, 
+                                "language": scraped_repo.get("language"),
+                                "language_color": scraped_repo.get("color", "#000000"),
+                                "private": False,
+                                "updated_at": ""
+                            })
+                
+                if detailed_repos:
+                    # Format the repo data to match the GraphQL format
+                    pinned_nodes = [
+                        {
+                            "name": repo.get("name"),
+                            "nameWithOwner": repo.get("full_name"),
+                            "description": repo.get("description"),
+                            "url": repo.get("html_url"),
+                            "stargazerCount": repo.get("stargazers_count", 0),
+                            "forkCount": repo.get("forks_count", 0),
+                            "primaryLanguage": {
+                                "name": repo.get("language"),
+                                "color": repo.get("language_color", "#" + format(hash(repo.get("language") or ""), '06x')[0:6])
+                            } if repo.get("language") else None,
+                            "isPrivate": repo.get("private", False),
+                            "updatedAt": repo.get("updated_at", "")
+                        }
+                        for repo in detailed_repos
+                    ]
+        
         # If still no pinned items, use top repos as a last fallback
         if not pinned_nodes:
-            print("No pinned repositories found via berrysauce.dev, trying top starred repos...")
+            print("No pinned repositories found via web scraping, trying top starred repos...")
             # Get all repos from the user
             rest_repo_query = f"/users/{user}/repos?sort=updated&per_page=100"
             all_repos = await s.queries.query_rest(rest_repo_query)
