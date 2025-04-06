@@ -1,0 +1,192 @@
+{
+  "username": "konnn04",
+  "name": "Trieu Nguyen Thanh",
+  "generated_at": "2025-04-06T05:27:27.870348",
+  "stats": {
+    "total_stars": 16,
+    "total_forks": 5,
+    "total_contributions": 1121,
+    "total_repositories": 58,
+    "total_commits_this_year": 0,
+    "total_prs": 0,
+    "total_issues": 0,
+    "contributed_to_last_year": 0,
+    "lines_changed": [
+      593749,
+      365726
+    ],
+    "views": 1024
+  },
+  "languages": {
+    "Python": {
+      "size": 659586,
+      "occurrences": 12,
+      "color": "#3572A5",
+      "prop": 13.57917458853466
+    },
+    "Java": {
+      "size": 222961,
+      "occurrences": 3,
+      "color": "#b07219",
+      "prop": 4.590191946818575
+    },
+    "JavaScript": {
+      "size": 1144149,
+      "occurrences": 37,
+      "color": "#f1e05a",
+      "prop": 23.55507701239466
+    },
+    "TypeScript": {
+      "size": 378109,
+      "occurrences": 4,
+      "color": "#3178c6",
+      "prop": 7.784289121503869
+    },
+    "HTML": {
+      "size": 1260819,
+      "occurrences": 38,
+      "color": "#e34c26",
+      "prop": 25.957011406460538
+    },
+    "Procfile": {
+      "size": 280,
+      "occurrences": 3,
+      "color": "#3B2F63",
+      "prop": 0.005764477846391077
+    },
+    "C++": {
+      "size": 926555,
+      "occurrences": 2,
+      "color": "#f34b7d",
+      "prop": 19.07537775343887
+    },
+    "C#": {
+      "size": 7547,
+      "occurrences": 1,
+      "color": "#178600",
+      "prop": 0.15537326538111948
+    },
+    "TSQL": {
+      "size": 3924,
+      "occurrences": 1,
+      "color": "#e38c00",
+      "prop": 0.08078503953299494
+    },
+    "Jupyter Notebook": {
+      "size": 902,
+      "occurrences": 1,
+      "color": "#DA5B0B",
+      "prop": 0.018569853633731256
+    },
+    "Mako": {
+      "size": 494,
+      "occurrences": 1,
+      "color": "#7e858d",
+      "prop": 0.010170185914704257
+    },
+    "Perl": {
+      "size": 10605,
+      "occurrences": 1,
+      "color": "#0298c3",
+      "prop": 0.21832959843206204
+    },
+    "Less": {
+      "size": 238518,
+      "occurrences": 1,
+      "color": "#1d365d",
+      "prop": 4.910470453448239
+    },
+    "Batchfile": {
+      "size": 2886,
+      "occurrences": 1,
+      "color": "#C1F12E",
+      "prop": 0.05941529665958803
+    }
+  },
+  "pinned_repositories": [
+    {
+      "name": "simple-comc-ai-system",
+      "full_name": "konnn04/simple-comc-ai-system",
+      "description": "The simple AI communication learning application system uses existing LLMs, simple TTS and STT models to accurately evaluate communication and emotions. This powerful application is developed to participate in the 2024 Student Scientific Research Contest. The project aims to improve human-machine interaction and enhance user experience quality",
+      "url": "https://github.com/konnn04/simple-comc-ai-system",
+      "stars": 0,
+      "forks": 0,
+      "language": {
+        "name": "TypeScript",
+        "color": "#-71125"
+      },
+      "is_private": false,
+      "updated_at": "2025-03-27T04:50:49Z"
+    },
+    {
+      "name": "DevTab",
+      "full_name": "konnn04/DevTab",
+      "description": null,
+      "url": "https://github.com/konnn04/DevTab",
+      "stars": 5,
+      "forks": 2,
+      "language": {
+        "name": "TypeScript",
+        "color": "#-71125"
+      },
+      "is_private": false,
+      "updated_at": "2025-03-17T15:04:01Z"
+    },
+    {
+      "name": "clinic-management-app",
+      "full_name": "konnn04/clinic-management-app",
+      "description": "The Clinic Management System is a web application designed to streamline clinic operations, including appointment scheduling, patient information management, billing, and medical services. It enhances workflow efficiency for medical staff and improves patient experience.",
+      "url": "https://github.com/konnn04/clinic-management-app",
+      "stars": 2,
+      "forks": 2,
+      "language": {
+        "name": "HTML",
+        "color": "#-14548"
+      },
+      "is_private": false,
+      "updated_at": "2025-02-24T07:33:41Z"
+    },
+    {
+      "name": "house-search-and-rental-system-with-smart-reviews",
+      "full_name": "konnn04/house-search-and-rental-system-with-smart-reviews",
+      "description": "A source code idea for building an automated lodging rental system with enhanced information search tools, featuring automatic evaluations such as flood risk, traffic conditions, and security, for the 2024 Software Solutions competition",
+      "url": "https://github.com/konnn04/house-search-and-rental-system-with-smart-reviews",
+      "stars": 0,
+      "forks": 0,
+      "language": {
+        "name": "HTML",
+        "color": "#-14548"
+      },
+      "is_private": false,
+      "updated_at": "2025-01-13T13:05:21Z"
+    },
+    {
+      "name": "Multi-Face-Attendance-with-MTCNN-and-FaceNet",
+      "full_name": "konnn04/Multi-Face-Attendance-with-MTCNN-and-FaceNet",
+      "description": "A discontinued project during the MultiCampus course by Samsung in the AI field. The system uses popular models, including MTCNN and FaceNet, to create an automatic attendance system.",
+      "url": "https://github.com/konnn04/Multi-Face-Attendance-with-MTCNN-and-FaceNet",
+      "stars": 0,
+      "forks": 0,
+      "language": {
+        "name": "Python",
+        "color": "#-58919"
+      },
+      "is_private": false,
+      "updated_at": "2025-01-12T20:09:08Z"
+    },
+    {
+      "name": "m",
+      "full_name": "konnn04/m",
+      "description": "A web-based YouTube audio player that allows searching, streaming and playlist management using yt-dlp for audio extraction. Built with Node.js backend and vanilla JavaScript frontend with support for mobile-responsive playback controls.",
+      "url": "https://github.com/konnn04/m",
+      "stars": 2,
+      "forks": 0,
+      "language": {
+        "name": "JavaScript",
+        "color": "#3846ee"
+      },
+      "is_private": false,
+      "updated_at": "2025-03-19T18:17:28Z"
+    }
+  ]
+}
