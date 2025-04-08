@@ -32,16 +32,16 @@
 
 ## 🕘 Recent activity:
 <!--START_SECTION:activity-->
-1. 🚀 Published release [Update Personal Web](https://github.com/konnn04/konnn04.github.io/releases/tag/2.0) in [konnn04/konnn04.github.io](https://github.com/konnn04/konnn04.github.io)
-2. 💪 Opened PR [#21834](https://github.com/is-a-dev/register/pull/21834) in [is-a-dev/register](https://github.com/is-a-dev/register)
-3. 🎉 Merged PR [#6](https://github.com/konnn04/simple-comc-ai-system/pull/6) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
-4. 🔒 Closed issue [#7](https://github.com/konnn04/simple-comc-ai-system/issues/7) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
-5. ❗ Opened issue [#7](https://github.com/konnn04/simple-comc-ai-system/issues/7) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
-6. 🚀 Published release [Phiên bản 0.0.1 Alpha](https://github.com/konnn04/simple-comc-ai-system/releases/tag/0.0.1) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
-7. 🎉 Merged PR [#5](https://github.com/konnn04/simple-comc-ai-system/pull/5) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
-8. 💪 Opened PR [#5](https://github.com/konnn04/simple-comc-ai-system/pull/5) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
-9. 🎉 Merged PR [#4](https://github.com/konnn04/simple-comc-ai-system/pull/4) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
-10. 💪 Opened PR [#4](https://github.com/konnn04/simple-comc-ai-system/pull/4) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
+1. ❌ Closed PR [#25](https://github.com/mpc-ou/mpc-extension/pull/25) in [mpc-ou/mpc-extension](https://github.com/mpc-ou/mpc-extension)
+2. 💪 Opened PR [#25](https://github.com/mpc-ou/mpc-extension/pull/25) in [mpc-ou/mpc-extension](https://github.com/mpc-ou/mpc-extension)
+3. 🚀 Published release [Update Personal Web](https://github.com/konnn04/konnn04.github.io/releases/tag/2.0) in [konnn04/konnn04.github.io](https://github.com/konnn04/konnn04.github.io)
+4. 💪 Opened PR [#21834](https://github.com/is-a-dev/register/pull/21834) in [is-a-dev/register](https://github.com/is-a-dev/register)
+5. 🎉 Merged PR [#6](https://github.com/konnn04/simple-comc-ai-system/pull/6) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
+6. 🔒 Closed issue [#7](https://github.com/konnn04/simple-comc-ai-system/issues/7) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
+7. ❗ Opened issue [#7](https://github.com/konnn04/simple-comc-ai-system/issues/7) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
+8. 🚀 Published release [Phiên bản 0.0.1 Alpha](https://github.com/konnn04/simple-comc-ai-system/releases/tag/0.0.1) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
+9. 🎉 Merged PR [#5](https://github.com/konnn04/simple-comc-ai-system/pull/5) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
+10. 💪 Opened PR [#5](https://github.com/konnn04/simple-comc-ai-system/pull/5) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
 <!--END_SECTION:activity-->
 
 <img src="https://count.getloli.com/get/@konnn04?theme=rule34" alt="konnn04's Github Stats"/>
