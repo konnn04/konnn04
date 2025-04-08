@@ -1,19 +1,19 @@
 {
   "username": "konnn04",
   "name": "Trieu Nguyen Thanh",
-  "generated_at": "2025-04-08T02:59:59.878033",
+  "generated_at": "2025-04-08T03:37:22.865081",
   "stats": {
     "total_stars": 19,
     "total_forks": 5,
-    "total_contributions": 1124,
+    "total_contributions": 1129,
     "total_repositories": 58,
     "total_commits_this_year": 0,
     "total_prs": 0,
     "total_issues": 0,
     "contributed_to_last_year": 0,
     "lines_changed": [
-      586645,
-      359935
+      591984,
+      365121
     ],
     "views": 1137
   },
@@ -22,91 +22,91 @@
       "size": 659586,
       "occurrences": 12,
       "color": "#3572A5",
-      "prop": 13.42450904148477
+      "prop": 13.399876359341278
+    },
+    "Java": {
+      "size": 231993,
+      "occurrences": 3,
+      "color": "#b07219",
+      "prop": 4.713073831513497
     },
     "Svelte": {
       "size": 75611,
       "occurrences": 1,
       "color": "#ff3e00",
-      "prop": 1.538905545502338
+      "prop": 1.5360818019275022
     },
     "HTML": {
       "size": 1239393,
       "occurrences": 38,
       "color": "#e34c26",
-      "prop": 25.22528151666793
+      "prop": 25.178995552714984
     },
     "JavaScript": {
       "size": 1145707,
       "occurrences": 37,
       "color": "#f1e05a",
-      "prop": 23.31849672429735
+      "prop": 23.275709526933287
     },
     "TypeScript": {
       "size": 378328,
       "occurrences": 5,
       "color": "#3178c6",
-      "prop": 7.700084077962313
-    },
-    "Java": {
-      "size": 222961,
-      "occurrences": 3,
-      "color": "#b07219",
-      "prop": 4.537910083595598
+      "prop": 7.685955164719791
     },
     "Procfile": {
       "size": 280,
       "occurrences": 3,
       "color": "#3B2F63",
-      "prop": 0.005698820974999069
+      "prop": 0.005688364186952965
     },
     "C++": {
       "size": 926555,
       "occurrences": 2,
       "color": "#f34b7d",
-      "prop": 18.858110958893796
+      "prop": 18.82350814015073
     },
     "C#": {
       "size": 7547,
       "occurrences": 1,
       "color": "#178600",
-      "prop": 0.15360357820827847
+      "prop": 0.15332173042476438
     },
     "TSQL": {
       "size": 3924,
       "occurrences": 1,
       "color": "#e38c00",
-      "prop": 0.07986490537820123
+      "prop": 0.0797183609628694
     },
     "Jupyter Notebook": {
       "size": 902,
       "occurrences": 1,
       "color": "#DA5B0B",
-      "prop": 0.01835834471231843
+      "prop": 0.018324658916541336
     },
     "Mako": {
       "size": 494,
       "occurrences": 1,
       "color": "#7e858d",
-      "prop": 0.010054348434462644
+      "prop": 0.010035899672695588
     },
     "Perl": {
       "size": 10605,
       "occurrences": 1,
       "color": "#0298c3",
-      "prop": 0.2158428444280897
+      "prop": 0.21544679358084354
     },
     "Less": {
       "size": 238518,
       "occurrences": 1,
       "color": "#1d365d",
-      "prop": 4.854540647552956
+      "prop": 4.845633032655883
     },
     "Batchfile": {
       "size": 2886,
       "occurrences": 1,
       "color": "#C1F12E",
-      "prop": 0.05873856190659754
+      "prop": 0.05863078229837948
     }
   },
   "pinned_repositories": [
@@ -119,7 +119,7 @@
       "forks": 0,
       "language": {
         "name": "TypeScript",
-        "color": "#726630"
+        "color": "#496657"
       },
       "is_private": false,
       "updated_at": "2025-03-27T04:50:49Z"
@@ -133,7 +133,7 @@
       "forks": 2,
       "language": {
         "name": "TypeScript",
-        "color": "#726630"
+        "color": "#496657"
       },
       "is_private": false,
       "updated_at": "2025-04-06T13:24:06Z"
@@ -147,7 +147,7 @@
       "forks": 2,
       "language": {
         "name": "HTML",
-        "color": "#-65ffd"
+        "color": "#299440"
       },
       "is_private": false,
       "updated_at": "2025-02-24T07:33:41Z"
@@ -161,7 +161,7 @@
       "forks": 0,
       "language": {
         "name": "HTML",
-        "color": "#-65ffd"
+        "color": "#299440"
       },
       "is_private": false,
       "updated_at": "2025-01-13T13:05:21Z"
@@ -175,7 +175,7 @@
       "forks": 0,
       "language": {
         "name": "Python",
-        "color": "#-6563f"
+        "color": "#136575"
       },
       "is_private": false,
       "updated_at": "2025-01-12T20:09:08Z"
@@ -189,7 +189,7 @@
       "forks": 0,
       "language": {
         "name": "JavaScript",
-        "color": "#507c34"
+        "color": "#-44b41"
       },
       "is_private": false,
       "updated_at": "2025-03-19T18:17:28Z"
