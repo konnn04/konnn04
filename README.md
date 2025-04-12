@@ -32,16 +32,16 @@
 
 ## 🕘 Recent activity:
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/Riikon-Team/RiikonBot/pull/1) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-2. 💪 Opened PR [#1](https://github.com/Riikon-Team/RiikonBot/pull/1) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-3. ❌ Closed PR [#25](https://github.com/mpc-ou/mpc-extension/pull/25) in [mpc-ou/mpc-extension](https://github.com/mpc-ou/mpc-extension)
-4. 💪 Opened PR [#25](https://github.com/mpc-ou/mpc-extension/pull/25) in [mpc-ou/mpc-extension](https://github.com/mpc-ou/mpc-extension)
-5. 🚀 Published release [Update Personal Web](https://github.com/konnn04/konnn04.github.io/releases/tag/2.0) in [konnn04/konnn04.github.io](https://github.com/konnn04/konnn04.github.io)
-6. 💪 Opened PR [#21834](https://github.com/is-a-dev/register/pull/21834) in [is-a-dev/register](https://github.com/is-a-dev/register)
-7. 🎉 Merged PR [#6](https://github.com/konnn04/simple-comc-ai-system/pull/6) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
-8. 🔒 Closed issue [#7](https://github.com/konnn04/simple-comc-ai-system/issues/7) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
-9. ❗ Opened issue [#7](https://github.com/konnn04/simple-comc-ai-system/issues/7) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
-10. 🚀 Published release [Phiên bản 0.0.1 Alpha](https://github.com/konnn04/simple-comc-ai-system/releases/tag/0.0.1) in [konnn04/simple-comc-ai-system](https://github.com/konnn04/simple-comc-ai-system)
+1. 🎉 Merged PR [#1](https://github.com/konnn04/MusicDiscordBot/pull/1) in [konnn04/MusicDiscordBot](https://github.com/konnn04/MusicDiscordBot)
+2. 💪 Opened PR [#1](https://github.com/konnn04/MusicDiscordBot/pull/1) in [konnn04/MusicDiscordBot](https://github.com/konnn04/MusicDiscordBot)
+3. ❌ Closed PR [#1](https://github.com/Riikon-Team/MusicDiscordBot/pull/1) in [Riikon-Team/MusicDiscordBot](https://github.com/Riikon-Team/MusicDiscordBot)
+4. 💪 Opened PR [#1](https://github.com/Riikon-Team/MusicDiscordBot/pull/1) in [Riikon-Team/MusicDiscordBot](https://github.com/Riikon-Team/MusicDiscordBot)
+5. 🎉 Merged PR [#1](https://github.com/Riikon-Team/RiikonBot/pull/1) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
+6. 💪 Opened PR [#1](https://github.com/Riikon-Team/RiikonBot/pull/1) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
+7. ❌ Closed PR [#25](https://github.com/mpc-ou/mpc-extension/pull/25) in [mpc-ou/mpc-extension](https://github.com/mpc-ou/mpc-extension)
+8. 💪 Opened PR [#25](https://github.com/mpc-ou/mpc-extension/pull/25) in [mpc-ou/mpc-extension](https://github.com/mpc-ou/mpc-extension)
+9. 🚀 Published release [Update Personal Web](https://github.com/konnn04/konnn04.github.io/releases/tag/2.0) in [konnn04/konnn04.github.io](https://github.com/konnn04/konnn04.github.io)
+10. 💪 Opened PR [#21834](https://github.com/is-a-dev/register/pull/21834) in [is-a-dev/register](https://github.com/is-a-dev/register)
 <!--END_SECTION:activity-->
 
 <img src="https://count.getloli.com/get/@konnn04?theme=rule34" alt="konnn04's Github Stats"/>
