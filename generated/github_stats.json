@@ -1,7 +1,7 @@
 {
   "username": "konnn04",
   "name": "Trieu Nguyen Thanh",
-  "generated_at": "2025-04-12T16:24:14.480043",
+  "generated_at": "2025-04-12T17:17:51.785091",
   "stats": {
     "total_stars": 19,
     "total_forks": 6,
@@ -125,7 +125,7 @@
       "forks": 0,
       "language": {
         "name": "TypeScript",
-        "color": "#579de9"
+        "color": "#78dbbd"
       },
       "is_private": false,
       "updated_at": "2025-03-27T04:50:49Z"
@@ -139,7 +139,7 @@
       "forks": 2,
       "language": {
         "name": "TypeScript",
-        "color": "#579de9"
+        "color": "#78dbbd"
       },
       "is_private": false,
       "updated_at": "2025-04-06T13:24:06Z"
@@ -153,7 +153,7 @@
       "forks": 2,
       "language": {
         "name": "HTML",
-        "color": "#-2b17a"
+        "color": "#-204dc"
       },
       "is_private": false,
       "updated_at": "2025-02-24T07:33:41Z"
@@ -167,7 +167,7 @@
       "forks": 0,
       "language": {
         "name": "HTML",
-        "color": "#-2b17a"
+        "color": "#-204dc"
       },
       "is_private": false,
       "updated_at": "2025-01-13T13:05:21Z"
@@ -181,7 +181,7 @@
       "forks": 0,
       "language": {
         "name": "Python",
-        "color": "#-15304"
+        "color": "#4c2e9e"
       },
       "is_private": false,
       "updated_at": "2025-01-12T20:09:08Z"
@@ -195,7 +195,7 @@
       "forks": 0,
       "language": {
         "name": "JavaScript",
-        "color": "#6e3d4b"
+        "color": "#-7bb55"
       },
       "is_private": false,
       "updated_at": "2025-03-19T18:17:28Z"
