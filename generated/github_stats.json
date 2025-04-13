@@ -1,11 +1,11 @@
 {
   "username": "konnn04",
   "name": "Trieu Nguyen Thanh",
-  "generated_at": "2025-04-13T05:24:00.636496",
+  "generated_at": "2025-04-13T06:24:50.167779",
   "stats": {
-    "total_stars": 19,
-    "total_forks": 6,
-    "total_contributions": 1179,
+    "total_stars": 20,
+    "total_forks": 7,
+    "total_contributions": 1183,
     "total_repositories": 61,
     "total_commits_this_year": 0,
     "total_prs": 0,
@@ -15,7 +15,7 @@
       641859,
       380741
     ],
-    "views": 842
+    "views": 835
   },
   "languages": {
     "Python": {
@@ -30,6 +30,12 @@
       "color": "#f1e05a",
       "prop": 28.246682498975783
     },
+    "EJS": {
+      "size": 113630,
+      "occurrences": 2,
+      "color": "#a91e50",
+      "prop": 1.9919819352499812
+    },
     "Vue": {
       "size": 119940,
       "occurrences": 1,
@@ -41,12 +47,6 @@
       "occurrences": 39,
       "color": "#e34c26",
       "prop": 21.743842307536557
-    },
-    "EJS": {
-      "size": 113630,
-      "occurrences": 2,
-      "color": "#a91e50",
-      "prop": 1.9919819352499812
     },
     "Procfile": {
       "size": 295,
@@ -131,7 +131,7 @@
       "forks": 0,
       "language": {
         "name": "TypeScript",
-        "color": "#1b09ac"
+        "color": "#-6167f"
       },
       "is_private": false,
       "updated_at": "2025-03-27T04:50:49Z"
@@ -145,7 +145,7 @@
       "forks": 2,
       "language": {
         "name": "TypeScript",
-        "color": "#1b09ac"
+        "color": "#-6167f"
       },
       "is_private": false,
       "updated_at": "2025-04-06T13:24:06Z"
@@ -159,7 +159,7 @@
       "forks": 2,
       "language": {
         "name": "HTML",
-        "color": "#-29fc9"
+        "color": "#60b06a"
       },
       "is_private": false,
       "updated_at": "2025-02-24T07:33:41Z"
@@ -173,7 +173,7 @@
       "forks": 0,
       "language": {
         "name": "HTML",
-        "color": "#-29fc9"
+        "color": "#60b06a"
       },
       "is_private": false,
       "updated_at": "2025-01-13T13:05:21Z"
@@ -187,7 +187,7 @@
       "forks": 0,
       "language": {
         "name": "Python",
-        "color": "#3dd8ab"
+        "color": "#-7cc38"
       },
       "is_private": false,
       "updated_at": "2025-01-12T20:09:08Z"
@@ -201,7 +201,7 @@
       "forks": 0,
       "language": {
         "name": "JavaScript",
-        "color": "#-12e9e"
+        "color": "#-1d8b2"
       },
       "is_private": false,
       "updated_at": "2025-03-19T18:17:28Z"
