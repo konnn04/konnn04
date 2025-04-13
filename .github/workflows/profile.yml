@@ -5,7 +5,7 @@ on:
     branches: [ main-2rd ]
   schedule:
     # Each 1 hour run the workflow
-    - cron: '0 * * * *'
+    - cron: '0 */2 * * *'
        
   workflow_dispatch:
 
