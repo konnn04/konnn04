@@ -1,7 +1,7 @@
 {
   "username": "konnn04",
   "name": "Trieu Nguyen Thanh",
-  "generated_at": "2025-04-13T07:18:09.459421",
+  "generated_at": "2025-04-13T07:33:50.593463",
   "stats": {
     "total_stars": 20,
     "total_forks": 6,
@@ -123,18 +123,18 @@
   },
   "pinned_repositories": [
     {
-      "name": "simple-comc-ai-system",
-      "full_name": "konnn04/simple-comc-ai-system",
-      "description": "The simple AI communication learning application system uses existing LLMs, simple TTS and STT models to accurately evaluate communication and emotions. This powerful application is developed to participate in the 2024 Student Scientific Research Contest. The project aims to improve human-machine interaction and enhance user experience quality",
-      "url": "https://github.com/konnn04/simple-comc-ai-system",
+      "name": "RiikonBot",
+      "full_name": "konnn04/RiikonBot",
+      "description": "Riikon's Discord Bot",
+      "url": "https://github.com/konnn04/RiikonBot",
       "stars": 0,
       "forks": 0,
       "language": {
-        "name": "TypeScript",
-        "color": "#-6a82d"
+        "name": "JavaScript",
+        "color": "#-4d122"
       },
       "is_private": false,
-      "updated_at": "2025-03-27T04:50:49Z"
+      "updated_at": "2025-04-13T07:25:26Z"
     },
     {
       "name": "DevTab",
@@ -145,10 +145,24 @@
       "forks": 2,
       "language": {
         "name": "TypeScript",
-        "color": "#-6a82d"
+        "color": "#-69a76"
       },
       "is_private": false,
       "updated_at": "2025-04-06T13:24:06Z"
+    },
+    {
+      "name": "simple-comc-ai-system",
+      "full_name": "konnn04/simple-comc-ai-system",
+      "description": "The simple AI communication learning application system uses existing LLMs, simple TTS and STT models to accurately evaluate communication and emotions. This powerful application is developed to participate in the 2024 Student Scientific Research Contest. The project aims to improve human-machine interaction and enhance user experience quality",
+      "url": "https://github.com/konnn04/simple-comc-ai-system",
+      "stars": 0,
+      "forks": 0,
+      "language": {
+        "name": "TypeScript",
+        "color": "#-69a76"
+      },
+      "is_private": false,
+      "updated_at": "2025-03-27T04:50:49Z"
     },
     {
       "name": "clinic-management-app",
@@ -159,24 +173,10 @@
       "forks": 2,
       "language": {
         "name": "HTML",
-        "color": "#-34460"
+        "color": "#-5a0c7"
       },
       "is_private": false,
       "updated_at": "2025-02-24T07:33:41Z"
-    },
-    {
-      "name": "house-search-and-rental-system-with-smart-reviews",
-      "full_name": "konnn04/house-search-and-rental-system-with-smart-reviews",
-      "description": "A source code idea for building an automated lodging rental system with enhanced information search tools, featuring automatic evaluations such as flood risk, traffic conditions, and security, for the 2024 Software Solutions competition",
-      "url": "https://github.com/konnn04/house-search-and-rental-system-with-smart-reviews",
-      "stars": 0,
-      "forks": 0,
-      "language": {
-        "name": "HTML",
-        "color": "#-34460"
-      },
-      "is_private": false,
-      "updated_at": "2025-01-13T13:05:21Z"
     },
     {
       "name": "Multi-Face-Attendance-with-MTCNN-and-FaceNet",
@@ -187,24 +187,24 @@
       "forks": 0,
       "language": {
         "name": "Python",
-        "color": "#-172a3"
+        "color": "#16ae42"
       },
       "is_private": false,
       "updated_at": "2025-01-12T20:09:08Z"
     },
     {
-      "name": "m",
-      "full_name": "konnn04/m",
-      "description": "A web-based YouTube audio player that allows searching, streaming and playlist management using yt-dlp for audio extraction. Built with Node.js backend and vanilla JavaScript frontend with support for mobile-responsive playback controls.",
-      "url": "https://github.com/konnn04/m",
-      "stars": 2,
+      "name": "house-search-and-rental-system-with-smart-reviews",
+      "full_name": "konnn04/house-search-and-rental-system-with-smart-reviews",
+      "description": "A source code idea for building an automated lodging rental system with enhanced information search tools, featuring automatic evaluations such as flood risk, traffic conditions, and security, for the 2024 Software Solutions competition",
+      "url": "https://github.com/konnn04/house-search-and-rental-system-with-smart-reviews",
+      "stars": 0,
       "forks": 0,
       "language": {
-        "name": "JavaScript",
-        "color": "#-3e90c"
+        "name": "HTML",
+        "color": "#-5a0c7"
       },
       "is_private": false,
-      "updated_at": "2025-03-19T18:17:28Z"
+      "updated_at": "2025-01-13T13:05:21Z"
     }
   ]
 }
