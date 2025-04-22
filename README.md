@@ -32,16 +32,16 @@
 
 ## 🕘 Recent activity:
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#5](https://github.com/Riikon-Team/RiikonBot/pull/5) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-2. 🎉 Merged PR [#3](https://github.com/Riikon-Team/RiikonBot/pull/3) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-3. 🎉 Merged PR [#4](https://github.com/Riikon-Team/RiikonBot/pull/4) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-4. 💪 Opened PR [#4](https://github.com/Riikon-Team/RiikonBot/pull/4) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-5. 🎉 Merged PR [#2](https://github.com/Riikon-Team/RiikonBot/pull/2) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-6. 💪 Opened PR [#2](https://github.com/Riikon-Team/RiikonBot/pull/2) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-7. 🎉 Merged PR [#1](https://github.com/Riikon-Team/RiikonBot/pull/1) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-8. 💪 Opened PR [#1](https://github.com/Riikon-Team/RiikonBot/pull/1) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-9. ❌ Closed PR [#25](https://github.com/mpc-ou/mpc-extension/pull/25) in [mpc-ou/mpc-extension](https://github.com/mpc-ou/mpc-extension)
-10. 💪 Opened PR [#25](https://github.com/mpc-ou/mpc-extension/pull/25) in [mpc-ou/mpc-extension](https://github.com/mpc-ou/mpc-extension)
+1. 🗣 Commented on [#2215](https://github.com/open-domains/register/pull/2215#issuecomment-2821301207) in [open-domains/register](https://github.com/open-domains/register)
+2. ❌ Reopened PR [#2215](https://github.com/open-domains/register/pull/2215) in [open-domains/register](https://github.com/open-domains/register)
+3. ❌ Closed PR [#2215](https://github.com/open-domains/register/pull/2215) in [open-domains/register](https://github.com/open-domains/register)
+4. 💪 Opened PR [#2215](https://github.com/open-domains/register/pull/2215) in [open-domains/register](https://github.com/open-domains/register)
+5. 💪 Opened PR [#5](https://github.com/Riikon-Team/RiikonBot/pull/5) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
+6. 🎉 Merged PR [#3](https://github.com/Riikon-Team/RiikonBot/pull/3) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
+7. 🎉 Merged PR [#4](https://github.com/Riikon-Team/RiikonBot/pull/4) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
+8. 💪 Opened PR [#4](https://github.com/Riikon-Team/RiikonBot/pull/4) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
+9. 🎉 Merged PR [#2](https://github.com/Riikon-Team/RiikonBot/pull/2) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
+10. 💪 Opened PR [#2](https://github.com/Riikon-Team/RiikonBot/pull/2) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
 <!--END_SECTION:activity-->
 
 <img src="https://count.getloli.com/get/@konnn04?theme=rule34" alt="konnn04's Github Stats"/>
