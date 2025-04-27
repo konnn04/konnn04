@@ -1,11 +1,11 @@
 {
   "username": "konnn04",
   "name": "Trieu Nguyen Thanh",
-  "generated_at": "2025-04-27T12:41:57.271891",
+  "generated_at": "2025-04-27T14:22:04.273534",
   "stats": {
     "total_stars": 21,
     "total_forks": 6,
-    "total_contributions": 1270,
+    "total_contributions": 1271,
     "total_repositories": 62,
     "total_commits_this_year": 0,
     "total_prs": 0,
@@ -15,20 +15,20 @@
       1461722,
       1194544
     ],
-    "views": 897
+    "views": 898
   },
   "languages": {
-    "Python": {
-      "size": 664858,
-      "occurrences": 13,
-      "color": "#3572A5",
-      "prop": 11.00379339565183
-    },
     "Java": {
       "size": 620384,
       "occurrences": 3,
       "color": "#b07219",
       "prop": 10.267722373752084
+    },
+    "Python": {
+      "size": 664858,
+      "occurrences": 13,
+      "color": "#3572A5",
+      "prop": 11.00379339565183
     },
     "JavaScript": {
       "size": 1636082,
@@ -131,7 +131,7 @@
       "forks": 0,
       "language": {
         "name": "JavaScript",
-        "color": "#-243fa"
+        "color": "#-6d984"
       },
       "is_private": false,
       "updated_at": "2025-04-13T07:25:26Z"
@@ -145,7 +145,7 @@
       "forks": 2,
       "language": {
         "name": "TypeScript",
-        "color": "#-5f030"
+        "color": "#-38923"
       },
       "is_private": false,
       "updated_at": "2025-04-06T13:24:06Z"
@@ -159,7 +159,7 @@
       "forks": 0,
       "language": {
         "name": "TypeScript",
-        "color": "#-5f030"
+        "color": "#-38923"
       },
       "is_private": false,
       "updated_at": "2025-03-27T04:50:49Z"
@@ -173,7 +173,7 @@
       "forks": 2,
       "language": {
         "name": "HTML",
-        "color": "#6689ba"
+        "color": "#-12449"
       },
       "is_private": false,
       "updated_at": "2025-02-24T07:33:41Z"
@@ -187,7 +187,7 @@
       "forks": 0,
       "language": {
         "name": "Python",
-        "color": "#178da7"
+        "color": "#-2b175"
       },
       "is_private": false,
       "updated_at": "2025-01-12T20:09:08Z"
@@ -201,7 +201,7 @@
       "forks": 0,
       "language": {
         "name": "HTML",
-        "color": "#6689ba"
+        "color": "#-12449"
       },
       "is_private": false,
       "updated_at": "2025-01-13T13:05:21Z"
