@@ -1,7 +1,7 @@
 {
   "username": "konnn04",
   "name": "Trieu Nguyen Thanh",
-  "generated_at": "2025-04-27T10:24:41.633680",
+  "generated_at": "2025-04-27T12:41:57.271891",
   "stats": {
     "total_stars": 21,
     "total_forks": 6,
@@ -15,20 +15,20 @@
       1461722,
       1194544
     ],
-    "views": 884
+    "views": 897
   },
   "languages": {
-    "Java": {
-      "size": 620384,
-      "occurrences": 3,
-      "color": "#b07219",
-      "prop": 10.267722373752084
-    },
     "Python": {
       "size": 664858,
       "occurrences": 13,
       "color": "#3572A5",
       "prop": 11.00379339565183
+    },
+    "Java": {
+      "size": 620384,
+      "occurrences": 3,
+      "color": "#b07219",
+      "prop": 10.267722373752084
     },
     "JavaScript": {
       "size": 1636082,
@@ -131,7 +131,7 @@
       "forks": 0,
       "language": {
         "name": "JavaScript",
-        "color": "#-69fd7"
+        "color": "#-243fa"
       },
       "is_private": false,
       "updated_at": "2025-04-13T07:25:26Z"
@@ -145,7 +145,7 @@
       "forks": 2,
       "language": {
         "name": "TypeScript",
-        "color": "#60ff84"
+        "color": "#-5f030"
       },
       "is_private": false,
       "updated_at": "2025-04-06T13:24:06Z"
@@ -159,7 +159,7 @@
       "forks": 0,
       "language": {
         "name": "TypeScript",
-        "color": "#60ff84"
+        "color": "#-5f030"
       },
       "is_private": false,
       "updated_at": "2025-03-27T04:50:49Z"
@@ -173,7 +173,7 @@
       "forks": 2,
       "language": {
         "name": "HTML",
-        "color": "#-70fe4"
+        "color": "#6689ba"
       },
       "is_private": false,
       "updated_at": "2025-02-24T07:33:41Z"
@@ -187,7 +187,7 @@
       "forks": 0,
       "language": {
         "name": "Python",
-        "color": "#7fbd8c"
+        "color": "#178da7"
       },
       "is_private": false,
       "updated_at": "2025-01-12T20:09:08Z"
@@ -201,7 +201,7 @@
       "forks": 0,
       "language": {
         "name": "HTML",
-        "color": "#-70fe4"
+        "color": "#6689ba"
       },
       "is_private": false,
       "updated_at": "2025-01-13T13:05:21Z"
