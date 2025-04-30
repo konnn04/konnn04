@@ -1,7 +1,7 @@
 {
   "username": "konnn04",
   "name": "Trieu Nguyen Thanh",
-  "generated_at": "2025-04-29T20:29:28.175165",
+  "generated_at": "2025-04-30T03:09:46.444939",
   "stats": {
     "total_stars": 21,
     "total_forks": 5,
@@ -15,9 +15,15 @@
       1462814,
       1194850
     ],
-    "views": 1053
+    "views": 1111
   },
   "languages": {
+    "Python": {
+      "size": 664858,
+      "occurrences": 13,
+      "color": "#3572A5",
+      "prop": 10.97579477186354
+    },
     "JavaScript": {
       "size": 1636087,
       "occurrences": 42,
@@ -29,12 +35,6 @@
       "occurrences": 40,
       "color": "#e34c26",
       "prop": 20.49539306112281
-    },
-    "Python": {
-      "size": 664858,
-      "occurrences": 13,
-      "color": "#3572A5",
-      "prop": 10.97579477186354
     },
     "Svelte": {
       "size": 85137,
@@ -131,7 +131,7 @@
       "forks": 0,
       "language": {
         "name": "JavaScript",
-        "color": "#4c0e10"
+        "color": "#-76750"
       },
       "is_private": false,
       "updated_at": "2025-04-13T07:25:26Z"
@@ -145,7 +145,7 @@
       "forks": 2,
       "language": {
         "name": "TypeScript",
-        "color": "#-2ca03"
+        "color": "#-76e05"
       },
       "is_private": false,
       "updated_at": "2025-04-06T13:24:06Z"
@@ -159,7 +159,7 @@
       "forks": 0,
       "language": {
         "name": "TypeScript",
-        "color": "#-2ca03"
+        "color": "#-76e05"
       },
       "is_private": false,
       "updated_at": "2025-03-27T04:50:49Z"
@@ -173,7 +173,7 @@
       "forks": 2,
       "language": {
         "name": "HTML",
-        "color": "#-34fbf"
+        "color": "#-4f2f0"
       },
       "is_private": false,
       "updated_at": "2025-02-24T07:33:41Z"
@@ -187,7 +187,7 @@
       "forks": 0,
       "language": {
         "name": "Python",
-        "color": "#327090"
+        "color": "#100a59"
       },
       "is_private": false,
       "updated_at": "2025-01-12T20:09:08Z"
@@ -201,7 +201,7 @@
       "forks": 0,
       "language": {
         "name": "HTML",
-        "color": "#-34fbf"
+        "color": "#-4f2f0"
       },
       "is_private": false,
       "updated_at": "2025-01-13T13:05:21Z"
