@@ -32,16 +32,16 @@
 
 ## 🕘 Recent activity:
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#2215](https://github.com/open-domains/register/pull/2215#issuecomment-2821301207) in [open-domains/register](https://github.com/open-domains/register)
-2. ❌ Reopened PR [#2215](https://github.com/open-domains/register/pull/2215) in [open-domains/register](https://github.com/open-domains/register)
-3. ❌ Closed PR [#2215](https://github.com/open-domains/register/pull/2215) in [open-domains/register](https://github.com/open-domains/register)
-4. 💪 Opened PR [#2215](https://github.com/open-domains/register/pull/2215) in [open-domains/register](https://github.com/open-domains/register)
-5. 💪 Opened PR [#5](https://github.com/Riikon-Team/RiikonBot/pull/5) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-6. 🎉 Merged PR [#3](https://github.com/Riikon-Team/RiikonBot/pull/3) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-7. 🎉 Merged PR [#4](https://github.com/Riikon-Team/RiikonBot/pull/4) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-8. 💪 Opened PR [#4](https://github.com/Riikon-Team/RiikonBot/pull/4) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-9. 🎉 Merged PR [#2](https://github.com/Riikon-Team/RiikonBot/pull/2) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
-10. 💪 Opened PR [#2](https://github.com/Riikon-Team/RiikonBot/pull/2) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
+1. 🎉 Merged PR [#13](https://github.com/konnn04/rent-house-app/pull/13) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+2. 💪 Opened PR [#13](https://github.com/konnn04/rent-house-app/pull/13) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+3. 🎉 Merged PR [#12](https://github.com/konnn04/rent-house-app/pull/12) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+4. 💪 Opened PR [#12](https://github.com/konnn04/rent-house-app/pull/12) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+5. 🗣 Commented on [#2215](https://github.com/open-domains/register/pull/2215#issuecomment-2821301207) in [open-domains/register](https://github.com/open-domains/register)
+6. ❌ Reopened PR [#2215](https://github.com/open-domains/register/pull/2215) in [open-domains/register](https://github.com/open-domains/register)
+7. ❌ Closed PR [#2215](https://github.com/open-domains/register/pull/2215) in [open-domains/register](https://github.com/open-domains/register)
+8. 💪 Opened PR [#2215](https://github.com/open-domains/register/pull/2215) in [open-domains/register](https://github.com/open-domains/register)
+9. 💪 Opened PR [#5](https://github.com/Riikon-Team/RiikonBot/pull/5) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
+10. 🎉 Merged PR [#3](https://github.com/Riikon-Team/RiikonBot/pull/3) in [Riikon-Team/RiikonBot](https://github.com/Riikon-Team/RiikonBot)
 <!--END_SECTION:activity-->
 
 <img src="https://count.getloli.com/get/@konnn04?theme=rule34" alt="konnn04's Github Stats"/>
