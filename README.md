@@ -2,7 +2,7 @@
     <img src="./media/mirai.gif" style="width: 100vw;" alt="Profile Image" />
 </div>
 
-## Hi there 
+## Hí there!
 
 ![Count](https://komarev.com/ghpvc/?username=konnn04&color=ff5d12&style=flat&label=Profile+Views) ![Static Badge](https://img.shields.io/badge/-konnn.1011-0866FF?style=flat&logo=facebook&link=https%3A%2F%2Fwww.facebook.com%2Fkonnn.1011%2F) ![Static Badge](https://img.shields.io/badge/-konnn.04-5865F2?style=flat&logo=discord&logoColor=ffffff)
 
@@ -11,7 +11,7 @@
 ## Profile
 - **Vietnam** 🇻🇳 - 3rd year college student (HCMCOU) 🏫
 - **Languages**: `Python`, `JS` 🐍
-- **Web, Discord Bot Developer** 💻
+- **Web, App (web, desktop, mobile,...) botapp (Discord)** 💻
 
 ## Discord
 
