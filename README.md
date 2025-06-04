@@ -32,16 +32,16 @@
 
 ## 🕘 Recent activity:
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#23](https://github.com/konnn04/rent-house-app/pull/23) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
-2. 💪 Opened PR [#23](https://github.com/konnn04/rent-house-app/pull/23) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
-3. 🎉 Merged PR [#22](https://github.com/konnn04/rent-house-app/pull/22) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
-4. 💪 Opened PR [#22](https://github.com/konnn04/rent-house-app/pull/22) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
-5. 🔒 Closed issue [#6](https://github.com/konnn04/rent-house-app/issues/6) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
-6. 🔒 Closed issue [#5](https://github.com/konnn04/rent-house-app/issues/5) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
-7. 🔒 Closed issue [#3](https://github.com/konnn04/rent-house-app/issues/3) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
-8. 🎉 Merged PR [#21](https://github.com/konnn04/rent-house-app/pull/21) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
-9. 💪 Opened PR [#21](https://github.com/konnn04/rent-house-app/pull/21) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
-10. 🎉 Merged PR [#20](https://github.com/konnn04/rent-house-app/pull/20) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+1. 💪 Opened PR [#26](https://github.com/konnn04/rent-house-app/pull/26) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+2. 🎉 Merged PR [#25](https://github.com/konnn04/rent-house-app/pull/25) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+3. 🎉 Merged PR [#24](https://github.com/konnn04/rent-house-app/pull/24) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+4. 🎉 Merged PR [#23](https://github.com/konnn04/rent-house-app/pull/23) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+5. 💪 Opened PR [#23](https://github.com/konnn04/rent-house-app/pull/23) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+6. 🎉 Merged PR [#22](https://github.com/konnn04/rent-house-app/pull/22) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+7. 💪 Opened PR [#22](https://github.com/konnn04/rent-house-app/pull/22) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+8. 🔒 Closed issue [#6](https://github.com/konnn04/rent-house-app/issues/6) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+9. 🔒 Closed issue [#5](https://github.com/konnn04/rent-house-app/issues/5) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
+10. 🔒 Closed issue [#3](https://github.com/konnn04/rent-house-app/issues/3) in [konnn04/rent-house-app](https://github.com/konnn04/rent-house-app)
 <!--END_SECTION:activity-->
 
 <img src="https://count.getloli.com/get/@konnn04?theme=rule34" alt="konnn04's Github Stats"/>
