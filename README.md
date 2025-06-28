@@ -32,16 +32,16 @@
 
 ## 🕘 Recent activity:
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/riikon04/riikon04-web-server/pull/2) in [riikon04/riikon04-web-server](https://github.com/riikon04/riikon04-web-server)
-2. 💪 Opened PR [#2](https://github.com/riikon04/riikon04-web-server/pull/2) in [riikon04/riikon04-web-server](https://github.com/riikon04/riikon04-web-server)
-3. 🎉 Merged PR [#1](https://github.com/riikon04/riikon04-web-server/pull/1) in [riikon04/riikon04-web-server](https://github.com/riikon04/riikon04-web-server)
-4. 💪 Opened PR [#1](https://github.com/riikon04/riikon04-web-server/pull/1) in [riikon04/riikon04-web-server](https://github.com/riikon04/riikon04-web-server)
-5. 🎉 Merged PR [#4](https://github.com/konnn04/reviews-it/pull/4) in [konnn04/reviews-it](https://github.com/konnn04/reviews-it)
-6. 💪 Opened PR [#4](https://github.com/konnn04/reviews-it/pull/4) in [konnn04/reviews-it](https://github.com/konnn04/reviews-it)
-7. 🎉 Merged PR [#3](https://github.com/konnn04/reviews-it/pull/3) in [konnn04/reviews-it](https://github.com/konnn04/reviews-it)
-8. 💪 Opened PR [#3](https://github.com/konnn04/reviews-it/pull/3) in [konnn04/reviews-it](https://github.com/konnn04/reviews-it)
-9. 🎉 Merged PR [#2](https://github.com/konnn04/reviews-it/pull/2) in [konnn04/reviews-it](https://github.com/konnn04/reviews-it)
-10. 💪 Opened PR [#2](https://github.com/konnn04/reviews-it/pull/2) in [konnn04/reviews-it](https://github.com/konnn04/reviews-it)
+1. 🎉 Merged PR [#1](https://github.com/riikon04/riikon04.github.io/pull/1) in [riikon04/riikon04.github.io](https://github.com/riikon04/riikon04.github.io)
+2. 💪 Opened PR [#1](https://github.com/riikon04/riikon04.github.io/pull/1) in [riikon04/riikon04.github.io](https://github.com/riikon04/riikon04.github.io)
+3. 🎉 Merged PR [#2](https://github.com/riikon04/riikon04-web-server/pull/2) in [riikon04/riikon04-web-server](https://github.com/riikon04/riikon04-web-server)
+4. 💪 Opened PR [#2](https://github.com/riikon04/riikon04-web-server/pull/2) in [riikon04/riikon04-web-server](https://github.com/riikon04/riikon04-web-server)
+5. 🎉 Merged PR [#1](https://github.com/riikon04/riikon04-web-server/pull/1) in [riikon04/riikon04-web-server](https://github.com/riikon04/riikon04-web-server)
+6. 💪 Opened PR [#1](https://github.com/riikon04/riikon04-web-server/pull/1) in [riikon04/riikon04-web-server](https://github.com/riikon04/riikon04-web-server)
+7. 🎉 Merged PR [#4](https://github.com/konnn04/reviews-it/pull/4) in [konnn04/reviews-it](https://github.com/konnn04/reviews-it)
+8. 💪 Opened PR [#4](https://github.com/konnn04/reviews-it/pull/4) in [konnn04/reviews-it](https://github.com/konnn04/reviews-it)
+9. 🎉 Merged PR [#3](https://github.com/konnn04/reviews-it/pull/3) in [konnn04/reviews-it](https://github.com/konnn04/reviews-it)
+10. 💪 Opened PR [#3](https://github.com/konnn04/reviews-it/pull/3) in [konnn04/reviews-it](https://github.com/konnn04/reviews-it)
 <!--END_SECTION:activity-->
 
 <img src="https://count.getloli.com/get/@konnn04?theme=rule34" alt="konnn04's Github Stats"/>
