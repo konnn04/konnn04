@@ -1,124 +1,124 @@
 {
   "username": "konnn04",
   "name": "Trieu Nguyen Thanh",
-  "generated_at": "2025-07-31T00:51:45.474567",
+  "generated_at": "2025-08-02T00:50:16.650282",
   "stats": {
     "total_stars": 24,
     "total_forks": 6,
-    "total_contributions": 1540,
-    "total_repositories": 73,
+    "total_contributions": 1519,
+    "total_repositories": 68,
     "total_commits_this_year": 0,
     "total_prs": 0,
     "total_issues": 0,
     "contributed_to_last_year": 0,
     "lines_changed": [
-      1690226,
-      1327899
+      855653,
+      524304
     ],
-    "views": 111
+    "views": 250
   },
   "languages": {
     "Python": {
-      "size": 901429,
-      "occurrences": 13,
+      "size": 842253,
+      "occurrences": 10,
       "color": "#3572A5",
-      "prop": 11.174624229088542
-    },
-    "JavaScript": {
-      "size": 2691498,
-      "occurrences": 47,
-      "color": "#f1e05a",
-      "prop": 33.365333002758234
+      "prop": 11.57833324558255
     },
     "HTML": {
-      "size": 1283924,
-      "occurrences": 44,
+      "size": 1266899,
+      "occurrences": 42,
       "color": "#e34c26",
-      "prop": 15.916248799082656
+      "prop": 17.415881938675536
     },
-    "TypeScript": {
-      "size": 1053116,
-      "occurrences": 6,
-      "color": "#3178c6",
-      "prop": 13.055022158861995
-    },
-    "Batchfile": {
-      "size": 2956,
-      "occurrences": 2,
-      "color": "#C1F12E",
-      "prop": 0.03664424954287662
-    },
-    "Procfile": {
-      "size": 295,
-      "occurrences": 4,
-      "color": "#3B2F63",
-      "prop": 0.003656987014596957
-    },
-    "Svelte": {
-      "size": 85137,
-      "occurrences": 1,
-      "color": "#ff3e00",
-      "prop": 1.0554064524126816
-    },
-    "Java": {
-      "size": 626280,
-      "occurrences": 3,
-      "color": "#b07219",
-      "prop": 7.7637214491585835
-    },
-    "Vue": {
-      "size": 119940,
-      "occurrences": 1,
-      "color": "#41b883",
-      "prop": 1.4868441441720643
-    },
-    "EJS": {
-      "size": 113630,
-      "occurrences": 2,
-      "color": "#a91e50",
-      "prop": 1.408621811758143
-    },
-    "C++": {
-      "size": 926555,
-      "occurrences": 2,
-      "color": "#f34b7d",
-      "prop": 11.486100350202994
-    },
-    "C#": {
-      "size": 7547,
-      "occurrences": 1,
-      "color": "#178600",
-      "prop": 0.09355688474292621
-    },
-    "TSQL": {
-      "size": 3924,
-      "occurrences": 1,
-      "color": "#e38c00",
-      "prop": 0.04864412557721511
+    "JavaScript": {
+      "size": 2574496,
+      "occurrences": 43,
+      "color": "#f1e05a",
+      "prop": 35.39123354552527
     },
     "Jupyter Notebook": {
       "size": 902,
       "occurrences": 1,
       "color": "#DA5B0B",
-      "prop": 0.011181702668360865
+      "prop": 0.012399666831124924
     },
     "Mako": {
       "size": 494,
       "occurrences": 1,
       "color": "#7e858d",
-      "prop": 0.006123903678681005
+      "prop": 0.00679094835318815
+    },
+    "Procfile": {
+      "size": 280,
+      "occurrences": 3,
+      "color": "#3B2F63",
+      "prop": 0.0038491205240742555
+    },
+    "TypeScript": {
+      "size": 511429,
+      "occurrences": 5,
+      "color": "#3178c6",
+      "prop": 7.030542358952759
+    },
+    "Java": {
+      "size": 626280,
+      "occurrences": 3,
+      "color": "#b07219",
+      "prop": 8.609382863632947
+    },
+    "Batchfile": {
+      "size": 2956,
+      "occurrences": 2,
+      "color": "#C1F12E",
+      "prop": 0.0406357152470125
+    },
+    "Svelte": {
+      "size": 85137,
+      "occurrences": 1,
+      "color": "#ff3e00",
+      "prop": 1.170366335921821
+    },
+    "Vue": {
+      "size": 119940,
+      "occurrences": 1,
+      "color": "#41b883",
+      "prop": 1.6487982702052366
+    },
+    "EJS": {
+      "size": 56174,
+      "occurrences": 1,
+      "color": "#a91e50",
+      "prop": 0.7722160582833829
+    },
+    "C++": {
+      "size": 926555,
+      "occurrences": 2,
+      "color": "#f34b7d",
+      "prop": 12.73722095422722
+    },
+    "C#": {
+      "size": 7547,
+      "occurrences": 1,
+      "color": "#178600",
+      "prop": 0.10374754498281573
+    },
+    "TSQL": {
+      "size": 3924,
+      "occurrences": 1,
+      "color": "#e38c00",
+      "prop": 0.053942674773097776
     },
     "Perl": {
       "size": 10605,
       "occurrences": 1,
       "color": "#0298c3",
-      "prop": 0.13146558403322278
+      "prop": 0.14578543984931244
     },
     "Less": {
       "size": 238518,
       "occurrences": 1,
       "color": "#1d365d",
-      "prop": 2.956804165246227
+      "prop": 3.278873318432655
     }
   },
   "pinned_repositories": [
@@ -131,7 +131,7 @@
       "forks": 0,
       "language": {
         "name": "JavaScript",
-        "color": "#449ed8"
+        "color": "#250760"
       },
       "is_private": false,
       "updated_at": "2025-07-23T04:48:16Z"
@@ -145,24 +145,24 @@
       "forks": 2,
       "language": {
         "name": "TypeScript",
-        "color": "#-5697f"
+        "color": "#6d622d"
       },
       "is_private": false,
       "updated_at": "2025-07-10T21:41:33Z"
     },
     {
-      "name": "simple-comc-ai-system",
-      "full_name": "konnn04/simple-comc-ai-system",
+      "name": "engtalk-ai-system",
+      "full_name": "konnn04/engtalk-ai-system",
       "description": "The simple AI communication learning application system uses existing LLMs, simple TTS and STT models to accurately evaluate communication and emotions. This powerful application is developed to participate in the 2024 Student Scientific Research Contest. The project aims to improve human-machine interaction and enhance user experience quality",
-      "url": "https://github.com/konnn04/simple-comc-ai-system",
-      "stars": 0,
+      "url": "https://github.com/konnn04/engtalk-ai-system",
+      "stars": 1,
       "forks": 0,
       "language": {
         "name": "TypeScript",
-        "color": "#-5697f"
+        "color": "#6d622d"
       },
       "is_private": false,
-      "updated_at": "2025-03-27T04:50:49Z"
+      "updated_at": "2025-07-31T07:32:28Z"
     },
     {
       "name": "clinic-management-app",
@@ -173,38 +173,38 @@
       "forks": 2,
       "language": {
         "name": "HTML",
-        "color": "#4bd539"
+        "color": "#-58fee"
       },
       "is_private": false,
-      "updated_at": "2025-02-24T07:33:41Z"
+      "updated_at": "2025-07-31T07:36:53Z"
     },
     {
-      "name": "Multi-Face-Attendance-with-MTCNN-and-FaceNet",
-      "full_name": "konnn04/Multi-Face-Attendance-with-MTCNN-and-FaceNet",
+      "name": "multi-face-attendance",
+      "full_name": "konnn04/multi-face-attendance",
       "description": "A discontinued project during the MultiCampus course by Samsung in the AI field. The system uses popular models, including MTCNN and FaceNet, to create an automatic attendance system.",
-      "url": "https://github.com/konnn04/Multi-Face-Attendance-with-MTCNN-and-FaceNet",
-      "stars": 0,
+      "url": "https://github.com/konnn04/multi-face-attendance",
+      "stars": 1,
       "forks": 0,
       "language": {
         "name": "Python",
-        "color": "#f9d25e"
+        "color": "#-6b7ad"
       },
       "is_private": false,
-      "updated_at": "2025-01-12T20:09:08Z"
+      "updated_at": "2025-07-31T07:39:13Z"
     },
     {
-      "name": "house-search-and-rental-system-with-smart-reviews",
-      "full_name": "konnn04/house-search-and-rental-system-with-smart-reviews",
+      "name": "smart-rental-house-review-website",
+      "full_name": "konnn04/smart-rental-house-review-website",
       "description": "A source code idea for building an automated lodging rental system with enhanced information search tools, featuring automatic evaluations such as flood risk, traffic conditions, and security, for the 2024 Software Solutions competition",
-      "url": "https://github.com/konnn04/house-search-and-rental-system-with-smart-reviews",
+      "url": "https://github.com/konnn04/smart-rental-house-review-website",
       "stars": 0,
       "forks": 0,
       "language": {
         "name": "HTML",
-        "color": "#4bd539"
+        "color": "#-58fee"
       },
       "is_private": false,
-      "updated_at": "2025-01-13T13:05:21Z"
+      "updated_at": "2025-07-31T07:36:24Z"
     }
   ]
 }
