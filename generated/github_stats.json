@@ -1,124 +1,124 @@
 {
   "username": "konnn04",
   "name": "Trieu Nguyen Thanh",
-  "generated_at": "2025-08-02T00:50:16.650282",
+  "generated_at": "2025-08-07T12:24:40.347432",
   "stats": {
-    "total_stars": 24,
+    "total_stars": 25,
     "total_forks": 6,
-    "total_contributions": 1519,
-    "total_repositories": 68,
+    "total_contributions": 1565,
+    "total_repositories": 69,
     "total_commits_this_year": 0,
     "total_prs": 0,
     "total_issues": 0,
     "contributed_to_last_year": 0,
     "lines_changed": [
-      855653,
-      524304
+      912429,
+      537681
     ],
-    "views": 250
+    "views": 255
   },
   "languages": {
     "Python": {
-      "size": 842253,
-      "occurrences": 10,
+      "size": 894235,
+      "occurrences": 11,
       "color": "#3572A5",
-      "prop": 11.57833324558255
-    },
-    "HTML": {
-      "size": 1266899,
-      "occurrences": 42,
-      "color": "#e34c26",
-      "prop": 17.415881938675536
+      "prop": 10.864541647764012
     },
     "JavaScript": {
-      "size": 2574496,
-      "occurrences": 43,
+      "size": 3291970,
+      "occurrences": 45,
       "color": "#f1e05a",
-      "prop": 35.39123354552527
+      "prop": 39.99591289559198
+    },
+    "TypeScript": {
+      "size": 693350,
+      "occurrences": 7,
+      "color": "#3178c6",
+      "prop": 8.423881811243328
+    },
+    "HTML": {
+      "size": 1271899,
+      "occurrences": 44,
+      "color": "#e34c26",
+      "prop": 15.452984570330392
     },
     "Jupyter Notebook": {
       "size": 902,
       "occurrences": 1,
       "color": "#DA5B0B",
-      "prop": 0.012399666831124924
+      "prop": 0.010958882806290447
     },
     "Mako": {
       "size": 494,
       "occurrences": 1,
       "color": "#7e858d",
-      "prop": 0.00679094835318815
+      "prop": 0.006001871514753305
     },
     "Procfile": {
       "size": 280,
       "occurrences": 3,
       "color": "#3B2F63",
-      "prop": 0.0038491205240742555
-    },
-    "TypeScript": {
-      "size": 511429,
-      "occurrences": 5,
-      "color": "#3178c6",
-      "prop": 7.030542358952759
+      "prop": 0.003401870494192157
     },
     "Java": {
       "size": 626280,
       "occurrences": 3,
       "color": "#b07219",
-      "prop": 8.609382863632947
+      "prop": 7.609012332509514
     },
     "Batchfile": {
       "size": 2956,
       "occurrences": 2,
       "color": "#C1F12E",
-      "prop": 0.0406357152470125
+      "prop": 0.03591403278868577
     },
     "Svelte": {
       "size": 85137,
       "occurrences": 1,
       "color": "#ff3e00",
-      "prop": 1.170366335921821
+      "prop": 1.0343751723715628
     },
     "Vue": {
       "size": 119940,
       "occurrences": 1,
       "color": "#41b883",
-      "prop": 1.6487982702052366
+      "prop": 1.4572155252621688
     },
     "EJS": {
       "size": 56174,
       "occurrences": 1,
       "color": "#a91e50",
-      "prop": 0.7722160582833829
+      "prop": 0.6824881183598221
     },
     "C++": {
       "size": 926555,
       "occurrences": 2,
       "color": "#f34b7d",
-      "prop": 12.73722095422722
+      "prop": 11.25721469909362
     },
     "C#": {
       "size": 7547,
       "occurrences": 1,
       "color": "#178600",
-      "prop": 0.10374754498281573
+      "prop": 0.09169255935595787
     },
     "TSQL": {
       "size": 3924,
       "occurrences": 1,
       "color": "#e38c00",
-      "prop": 0.053942674773097776
+      "prop": 0.04767478506860722
     },
     "Perl": {
       "size": 10605,
       "occurrences": 1,
       "color": "#0298c3",
-      "prop": 0.14578543984931244
+      "prop": 0.12884584496752793
     },
     "Less": {
       "size": 238518,
       "occurrences": 1,
       "color": "#1d365d",
-      "prop": 3.278873318432655
+      "prop": 2.8978833804775888
     }
   },
   "pinned_repositories": [
@@ -131,7 +131,7 @@
       "forks": 0,
       "language": {
         "name": "JavaScript",
-        "color": "#250760"
+        "color": "#7ae023"
       },
       "is_private": false,
       "updated_at": "2025-07-23T04:48:16Z"
@@ -145,7 +145,7 @@
       "forks": 2,
       "language": {
         "name": "TypeScript",
-        "color": "#6d622d"
+        "color": "#-79947"
       },
       "is_private": false,
       "updated_at": "2025-07-10T21:41:33Z"
@@ -159,7 +159,7 @@
       "forks": 0,
       "language": {
         "name": "TypeScript",
-        "color": "#6d622d"
+        "color": "#-79947"
       },
       "is_private": false,
       "updated_at": "2025-07-31T07:32:28Z"
@@ -169,14 +169,14 @@
       "full_name": "konnn04/clinic-management-app",
       "description": "The Clinic Management System is a web application designed to streamline clinic operations, including appointment scheduling, patient information management, billing, and medical services. It enhances workflow efficiency for medical staff and improves patient experience.",
       "url": "https://github.com/konnn04/clinic-management-app",
-      "stars": 2,
+      "stars": 3,
       "forks": 2,
       "language": {
         "name": "HTML",
-        "color": "#-58fee"
+        "color": "#e5467f"
       },
       "is_private": false,
-      "updated_at": "2025-07-31T07:36:53Z"
+      "updated_at": "2025-08-02T06:34:03Z"
     },
     {
       "name": "multi-face-attendance",
@@ -187,7 +187,7 @@
       "forks": 0,
       "language": {
         "name": "Python",
-        "color": "#-6b7ad"
+        "color": "#46d1fb"
       },
       "is_private": false,
       "updated_at": "2025-07-31T07:39:13Z"
@@ -201,7 +201,7 @@
       "forks": 0,
       "language": {
         "name": "HTML",
-        "color": "#-58fee"
+        "color": "#e5467f"
       },
       "is_private": false,
       "updated_at": "2025-07-31T07:36:24Z"
