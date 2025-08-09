@@ -32,16 +32,16 @@
 
 ## 🕘 Recent activity:
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#25036](https://github.com/is-a-dev/register/pull/25036) in [is-a-dev/register](https://github.com/is-a-dev/register)
-2. 🎉 Merged PR [#7](https://github.com/konnn04/food-ordering-app/pull/7) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-3. 💪 Opened PR [#7](https://github.com/konnn04/food-ordering-app/pull/7) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-4. 🎉 Merged PR [#6](https://github.com/konnn04/food-ordering-app/pull/6) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-5. 💪 Opened PR [#6](https://github.com/konnn04/food-ordering-app/pull/6) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-6. 🎉 Merged PR [#5](https://github.com/konnn04/food-ordering-app/pull/5) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-7. 💪 Opened PR [#5](https://github.com/konnn04/food-ordering-app/pull/5) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-8. 🎉 Merged PR [#8](https://github.com/Riikon-Team/DevTab/pull/8) in [Riikon-Team/DevTab](https://github.com/Riikon-Team/DevTab)
-9. 💪 Opened PR [#8](https://github.com/Riikon-Team/DevTab/pull/8) in [Riikon-Team/DevTab](https://github.com/Riikon-Team/DevTab)
-10. 🎉 Merged PR [#7](https://github.com/Riikon-Team/DevTab/pull/7) in [Riikon-Team/DevTab](https://github.com/Riikon-Team/DevTab)
+1. 💪 Opened PR [#2551](https://github.com/open-domains/register/pull/2551) in [open-domains/register](https://github.com/open-domains/register)
+2. 💪 Opened PR [#25036](https://github.com/is-a-dev/register/pull/25036) in [is-a-dev/register](https://github.com/is-a-dev/register)
+3. 🎉 Merged PR [#7](https://github.com/konnn04/food-ordering-app/pull/7) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
+4. 💪 Opened PR [#7](https://github.com/konnn04/food-ordering-app/pull/7) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
+5. 🎉 Merged PR [#6](https://github.com/konnn04/food-ordering-app/pull/6) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
+6. 💪 Opened PR [#6](https://github.com/konnn04/food-ordering-app/pull/6) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
+7. 🎉 Merged PR [#5](https://github.com/konnn04/food-ordering-app/pull/5) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
+8. 💪 Opened PR [#5](https://github.com/konnn04/food-ordering-app/pull/5) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
+9. 🎉 Merged PR [#8](https://github.com/Riikon-Team/DevTab/pull/8) in [Riikon-Team/DevTab](https://github.com/Riikon-Team/DevTab)
+10. 💪 Opened PR [#8](https://github.com/Riikon-Team/DevTab/pull/8) in [Riikon-Team/DevTab](https://github.com/Riikon-Team/DevTab)
 <!--END_SECTION:activity-->
 
 <img src="https://count.getloli.com/get/@konnn04?theme=rule34" alt="konnn04's Github Stats"/>
