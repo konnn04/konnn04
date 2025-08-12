@@ -37,7 +37,7 @@
 ```yaml
 name: Nguyen Thanh Trieu
 located_in: Ho Chi Minh City, Vietnam
-current_job: Fullstack Developer
+current_job: N/A
 education:
   - "3rd-year Student @ HCMCOU"
   - "Information Technology Major"
@@ -101,6 +101,14 @@ currently_learning:
   <img src="https://github-profile-trophy.vercel.app/?username=konnn04&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies" height="100em"/>
 </div>
 
+## Recent Projects
+
+- [Online Exam Monitoring System](https://github.com/konnn04/online-exam-monitoring-system.git): A desktop application for monitoring online exams.
+- [Devtab](https://github.com/Riikon-Team/DevTab): A extension for browser, customizing new tab page.
+- [Rent House App](https://github.com/konnn04/rent-house-app.git): A mobile application for renting houses.
+- [EngTalk](https://github.com/konnn04/engtalk-ai-system): A system for language learning and practice, using AI to assist users.
+- [RiikonBot](https://github.com/konnn04/RiikonBot): A Discord bot for managing server activities and providing useful utilities.
+
 <!-- ## 📈 Contribution Graph
 
 <div align="center">
@@ -148,10 +156,9 @@ currently_learning:
 
 </div>
 
-<!--
-<div align="center">
 
-### 💭 Random Dev Quote
+
+<!-- ### 💭 Random Dev Quote
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random Dev Quote" />
 
@@ -159,7 +166,7 @@ currently_learning:
 
 ---
 
-<div align="center">
+<!-- <div align="center">
 
 **Thanks for visiting my profile! 😊**
 
@@ -167,4 +174,4 @@ _Let's connect and build something amazing together!_ 🚀
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=100&section=footer" alt="Footer" />
 
-</div>
+</div> -->
