@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Thanh+Trieu+👋;Fullstack+Developer+🚀" alt="Typing SVG" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Thanh+Trieu+👋;Fullstack+Developer+🚀)]
 
 <!-- Profile Views & Social Badges -->
 <p>
@@ -74,11 +74,11 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=konnn04&theme=tokyonight&hide_border=true" height="130em" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=konnn04&theme=tokyonight&hide_border=true" height="150em" alt="GitHub Streak" />
   <br/>
 
-<img height="130em" src="https://github-readme-stats.vercel.app/api?username=konnn04&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-<img height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=konnn04&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css" alt="Top Languages" />
+<img height="150em" src="https://github-readme-stats.vercel.app/api?username=konnn04&show_icons=true&theme=tokyonight&hide_border=true&custom_title=My%20GitHub%20Stats" alt="GitHub Stats" />
+<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=konnn04&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&custom_title=Top%20Languages" alt="Top Languages" />
 
   <img src="https://github-profile-trophy.vercel.app/?username=konnn04&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies" height="100em"/>
 </div>
