@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Animated Header -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Thanh+Trieu+👋;Fullstack+Developer+🚀)]
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Thanh+Trieu+👋;Fullstack+Developer+🚀)](https://konnn04.github.io)
 
 <!-- Profile Views & Social Badges -->
 <p>
