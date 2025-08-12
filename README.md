@@ -95,7 +95,7 @@ currently_learning:
 <img src="https://streak-stats.demolab.com/?user=konnn04&theme=tokyonight&hide_border=true" height="130em" alt="GitHub Streak" />
   <br/>
 
-<img height="130em" src="https://github-readme-stats.vercel.app/api?username=konnn04&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" />
+<img height="130em" src="https://github-readme-stats.vercel.app/api?username=konnn04&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
 <img height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=konnn04&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css" alt="Top Languages" />
 
   <img src="https://github-profile-trophy.vercel.app/?username=konnn04&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies" height="100em"/>
