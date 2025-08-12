@@ -1,47 +1,170 @@
 <div align="center">
-    <img src="./media/mirai.gif" style="width: 100vw;" alt="Profile Image" />
+
+<!-- Animated Header -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Thanh+Trieu+👋;Fullstack+Developer+🚀" alt="Typing SVG" />
+
+<!-- Profile Views & Social Badges -->
+<p>
+  <img src="https://komarev.com/ghpvc/?username=konnn04&color=58A6FF&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/konnn04?style=for-the-badge&color=58A6FF&labelColor=1c1917&label=FOLLOWERS" alt="GitHub followers" />
+</p>
+
+<!-- Quick Links -->
+<p>
+  <a href="https://konnn04.github.io">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-konnn04.is--a.dev-58A6FF?style=for-the-badge&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://facebook.com/konnn.1011">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://www.linkedin.com/in/konnn04/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:trieukon1011@gmail.com">
+    <img src="https://img.shields.io/badge/Email-0072C6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  
+</p>
+
 </div>
 
-## Hí there!
+---
 
-![Count](https://komarev.com/ghpvc/?username=konnn04&color=ff5d12&style=flat&label=Profile+Views) ![Static Badge](https://img.shields.io/badge/-konnn.1011-0866FF?style=flat&logo=facebook&link=https%3A%2F%2Fwww.facebook.com%2Fkonnn.1011%2F) ![Static Badge](https://img.shields.io/badge/-konnn.04-5865F2?style=flat&logo=discord&logoColor=ffffff)
+## 🙋‍♂️ About Me
 
-**My website** >> [konnn04.is-a.dev](https://konnn04.github.io) 
+<img align="right" alt="Coding GIF" width="300" src="./media/kanade.gif" />
 
-## Profile
-- **Vietnam** 🇻🇳 - 3rd year college student (HCMCOU) 🏫
-- **Languages**: `Python`, `JS` 🐍
-- **Web, App (web, desktop, mobile,...) botapp (Discord)** 💻
+```yaml
+name: Nguyen Thanh Trieu
+located_in: Ho Chi Minh City, Vietnam
+current_job: Fullstack Developer
+education:
+  - "3rd-year Student @ HCMCOU"
+  - "Information Technology Major"
 
-## Discord
+fields_of_interests:
+  - "Web Development"
+  - "Full Stack Development"
+  - "UI/UX Design"
+  - "DevOps"
 
-[![Discord Presence](https://lanyard.cnrad.dev/api/732157441889927239)](https://discord.com/users/732157441889927239)
+currently_learning:
+  - "Advanced React Patterns"
+  - "Django REST Framework"
+  - "Docker & Kubernetes"
+  - "GitHub Actions"
+```
 
-## GitHub Stats
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
-</picture>
+<!-- <details>
+<summary>📖 More about me</summary>
+
+- 🔭 I'm currently working on **fullstack web applications**
+- 🌱 I'm currently learning **React/Next.js, Django, and DevOps**
+- 👯 I'm looking to collaborate on **open source projects**
+- 💬 Ask me about **Python, JavaScript, React, or anything tech-related**
+- ⚡ Fun fact: **I love automating repetitive tasks and building tools that make life easier**
+- 🎯 2024 Goals: **Contribute to more open source projects and master cloud technologies**
+
+</details> -->
+
+---
+
+## 🛠️ Languages & Technologies
+
 <div align="center">
-  <img src="./generated/overview.svg" alt="Overview" />
-  <img src="./generated/languages.svg" alt="Languages" />
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+</p>
+
 </div>
 
+## 📊 GitHub Analytics
 
+<div align="center">
 
-## 🕘 Recent activity:
-<!--START_SECTION:activity-->
-1. 💪 Opened PR [#2551](https://github.com/open-domains/register/pull/2551) in [open-domains/register](https://github.com/open-domains/register)
-2. 💪 Opened PR [#25036](https://github.com/is-a-dev/register/pull/25036) in [is-a-dev/register](https://github.com/is-a-dev/register)
-3. 🎉 Merged PR [#7](https://github.com/konnn04/food-ordering-app/pull/7) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-4. 💪 Opened PR [#7](https://github.com/konnn04/food-ordering-app/pull/7) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-5. 🎉 Merged PR [#6](https://github.com/konnn04/food-ordering-app/pull/6) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-6. 💪 Opened PR [#6](https://github.com/konnn04/food-ordering-app/pull/6) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-7. 🎉 Merged PR [#5](https://github.com/konnn04/food-ordering-app/pull/5) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-8. 💪 Opened PR [#5](https://github.com/konnn04/food-ordering-app/pull/5) in [konnn04/food-ordering-app](https://github.com/konnn04/food-ordering-app)
-9. 🎉 Merged PR [#8](https://github.com/Riikon-Team/DevTab/pull/8) in [Riikon-Team/DevTab](https://github.com/Riikon-Team/DevTab)
-10. 💪 Opened PR [#8](https://github.com/Riikon-Team/DevTab/pull/8) in [Riikon-Team/DevTab](https://github.com/Riikon-Team/DevTab)
-<!--END_SECTION:activity-->
+<img src="https://streak-stats.demolab.com/?user=konnn04&theme=tokyonight&hide_border=true" height="130em" alt="GitHub Streak" />
+  <br/>
 
-<img src="https://count.getloli.com/get/@konnn04?theme=rule34" alt="konnn04's Github Stats"/>
+<img height="130em" src="https://github-readme-stats.vercel.app/api?username=konnn04&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" />
+<img height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=konnn04&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css" alt="Top Languages" />
+
+  <img src="https://github-profile-trophy.vercel.app/?username=konnn04&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies" height="100em"/>
+</div>
+
+<!-- ## 📈 Contribution Graph
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=konnn04&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" alt="Contribution Graph" />
+</div>
+
+--- -->
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/konnn04/konnn04/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/konnn04/konnn04/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/konnn04/konnn04/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+<p>
+  <a href="https://konnn04.github.io">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-konnn04.is--a.dev-58A6FF?style=for-the-badge" alt="Portfolio" />
+  </a>
+</p>
+
+<p>
+  <a href="https://drive.google.com/file/d/1lCuyf-2q8nfiuhqnrgp3WUOdunR1uxdk/view?usp=sharing">
+    <img src="https://img.shields.io/badge/📄_CV-58A6FF?style=for-the-badge" alt="CV" />
+  </a>
+  <a href="https://facebook.com/konnn.1011">
+    <img src="https://img.shields.io/badge/konnn.1011-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://discord.com/users/732157441889927239">
+    <img src="https://img.shields.io/badge/konnn__04-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="mailto:trieukon1011@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
+</div>
+
+<!--
+<div align="center">
+
+### 💭 Random Dev Quote
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random Dev Quote" />
+
+</div> -->
+
+---
+
+<div align="center">
+
+**Thanks for visiting my profile! 😊**
+
+_Let's connect and build something amazing together!_ 🚀
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=100&section=footer" alt="Footer" />
+
+</div>

@@ -4,7 +4,6 @@ on:
   push:
     branches: [ main-2rd ]
   schedule:
-    # Each 1 hour run the workflow
     - cron: '0 */12 * * *'
        
   workflow_dispatch:
@@ -50,60 +49,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  stats:
-    needs: snake
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main-2rd
-          fetch-depth: 0
-          
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.10'
-          cache: 'pip'
-
-      - name: Install requirements
-        run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install -r requirements.txt
-
-      - name: Generate GitHub stats
-        run: |
-          echo "Starting stats generation..."
-          git pull origin main-2rd || true
-          python3 -c "import os; print(f'Working directory: {os.getcwd()}'); print(f'Files: {os.listdir()}')"
-          python3 generate_images.py
-          echo "Stats generation complete!"
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_ACTOR: ${{ github.repository_owner }}
-          EXCLUDE_FORKED_REPOS: true
-          EXCLUDED_LANGS: "HTML, CSS, SCSS, Dockerfile, Shell, Makefile"
-          
-      - name: Generate GitHub stats JSON with debugging
-        run: |
-          echo "Starting JSON stats generation with debug..."
-          # Try to directly inspect the HTML structure
-          python3 -c "import requests; html = requests.get('https://github.com/konnn04').text; open('profile.html', 'w').write(html); print('Profile HTML saved')"
-          python3 export_stats_json.py
-          echo "JSON stats generation complete!"
-        env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_ACTOR: ${{ github.repository_owner }}
-          EXCLUDE_FORKED_REPOS: true
-          EXCLUDED_LANGS: "CSS, SCSS, Dockerfile, Shell, Makefile"
-      
-      - name: Commit stats images
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add generated/
-          git commit -m 'Update stats images' || true
-          git pull --no-rebase origin main-2rd || true
-          git push origin main-2rd || { git reset --hard origin/main-2rd && git pull origin main-2rd && git add generated/ && git commit -m 'Update stats images' && git push origin main-2rd; }
