@@ -32,40 +32,22 @@
 
 ## 🙋‍♂️ About Me
 
-<img align="right" alt="Coding GIF" width="300" src="./media/kanade.gif" />
+<div>
+  <img alt="Coding GIF" height="240em" src="./media/kanade.gif" align="right" />
+  <div>
+    <p>I'm <strong>Thanh Trieu</strong>, also known as <strong>Konnn</strong>, a passionate Fullstack Developer with experience developing web applications using Nodejs (Express, NestJS), Python (Django), and React. I am keen on learning new technologies and improving my skills day by day. Currently, I am focused on building scalable and efficient web applications.</p>
+  </div>
+</div>
 
-```yaml
-name: Nguyen Thanh Trieu
-located_in: Ho Chi Minh City, Vietnam
-current_job: N/A
-education:
-  - "3rd-year Student @ HCMCOU"
-  - "Information Technology Major"
-
-fields_of_interests:
-  - "Web Development"
-  - "Full Stack Development"
-  - "UI/UX Design"
-  - "DevOps"
-
-currently_learning:
-  - "Advanced React Patterns"
-  - "Django REST Framework"
-  - "Docker & Kubernetes"
-  - "GitHub Actions"
-```
-
-<!-- <details>
+<details>
 <summary>📖 More about me</summary>
 
-- 🔭 I'm currently working on **fullstack web applications**
+- 🔭 Currently, I'm 3rd-year Student at HCMCOU, majoring in Information Technology.
 - 🌱 I'm currently learning **React/Next.js, Django, and DevOps**
 - 👯 I'm looking to collaborate on **open source projects**
-- 💬 Ask me about **Python, JavaScript, React, or anything tech-related**
-- ⚡ Fun fact: **I love automating repetitive tasks and building tools that make life easier**
-- 🎯 2024 Goals: **Contribute to more open source projects and master cloud technologies**
+- 🎯 2026 Goals: **Contribute to more open source projects and master cloud technologies**
 
-</details> -->
+</details>
 
 ---
 
@@ -155,8 +137,6 @@ currently_learning:
 </p>
 
 </div>
-
-
 
 <!-- ### 💭 Random Dev Quote
 
