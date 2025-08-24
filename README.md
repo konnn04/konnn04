@@ -23,7 +23,9 @@
   <a href="mailto:trieukon1011@gmail.com">
     <img src="https://img.shields.io/badge/Email-0072C6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  
+  <a href="https://drive.google.com/file/d/1dxsQAkOZgnzBVJ1nq6sd0oy2Md58QaVz/view?usp=sharing">
+    <img src="https://img.shields.io/badge/📄_My CV-58A6FF?style=for-the-badge" alt="My CV" />
+  </a>
 </p>
 
 </div>
@@ -122,9 +124,6 @@
 </p>
 
 <p>
-  <a href="https://drive.google.com/file/d/1lCuyf-2q8nfiuhqnrgp3WUOdunR1uxdk/view?usp=sharing">
-    <img src="https://img.shields.io/badge/📄_CV-58A6FF?style=for-the-badge" alt="CV" />
-  </a>
   <a href="https://facebook.com/konnn.1011">
     <img src="https://img.shields.io/badge/konnn.1011-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
   </a>
