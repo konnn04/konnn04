@@ -119,7 +119,7 @@
 
 <p>
   <a href="https://konnn04.github.io">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-konnn04.is--a.dev-58A6FF?style=for-the-badge" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/🌐_Portfolio-konnn04.is--a.dev-58A6FF?style=for-the-badge" alt="My Portfolio" />
   </a>
 </p>
 
