@@ -49,18 +49,17 @@
 
 </div>
 
-
 ## 📊 GitHub Analytics
 
 <div align="center">
 
+<img src="./profile/stats.svg" height="150em" alt="GitHub Stats" />
+<img src="./profile/top-langs.svg" height="150em" alt="Top Languages" />
+
 <img src="https://github-readme-streak-stats-eight.vercel.app/?user=konnn04&theme=tokyonight&hide_border=true" height="150em" alt="GitHub Streak" />
-  <br/>
 
-<img height="150em" src="https://github-readme-stats.vercel.app/api?username=konnn04&show_icons=true&theme=tokyonight&hide_border=true&custom_title=My%20GitHub%20Stats" alt="GitHub Stats" />
-<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=konnn04&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&custom_title=Top%20Languages" alt="Top Languages" />
+<img src="https://github-profile-trophy-tawny.vercel.app/?username=konnn04&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies" height="100em"/>
 
-  <img src="https://https://github-profile-trophy-tawny.vercel.app/?username=konnn04&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies" height="100em"/>
 </div>
 
 ## Recent Projects
