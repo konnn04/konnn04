@@ -93,7 +93,7 @@
 ## 🤝 Connect With Me
 
 <p align="center">
-  <a href="https://konnn04.github.io">
+  <a href="https://www.konnn04.dev/">
     <img src="https://img.shields.io/badge/Website-58A6FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
   </a>
   <a href="https://www.linkedin.com/in/konnn04/">
