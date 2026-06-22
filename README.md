@@ -60,7 +60,7 @@
 <div align="center">
 
 <img src="./profile/stats.svg" height="150em" alt="GitHub Stats" />
-<img src="./profile/top-langs.svg" height="150em" alt="Top Languages" />
+<!-- <img src="./profile/top-langs.svg" height="150em" alt="Top Languages" /> -->
 
 <img src="https://github-readme-streak-stats-eight.vercel.app/?user=konnn04&theme=tokyonight&hide_border=true" height="150em" alt="GitHub Streak" />
 
