@@ -5,17 +5,13 @@
 </p>
 
 <h1>👋 Hi guy! I'm Trieu Thanh Nguyen!</h1>
-
-<h2>😼 About Me</h2> 
+<b><i>Fullstack Developer</i></b>
 
 <div>
   <img alt="Coding GIF" height="200em" src="./media/kanade.gif" align="right" />
   <div>
     <p>
-      I'm Thanh Trieu, also known as Konnn. I have been working as a Fullstack Developer for about two years. During this time, I joined many projects, building systems and portfolio websites for organizations, and also creating small projects that have been useful for thousands of users. These experiences helped me improve my skills and understand how to deliver practical solutions.
-    </p>
-    <p>
-      Now I am learning more about testing to make my work better and more reliable. I enjoy learning new things and I am looking for new opportunities where I can grow, contribute, and bring value to future projects.
+      A few years of experience building websites for clients, automated bot systems, and tools with over 500 users.
     </p>
   </div>
 </div>
@@ -26,30 +22,40 @@
 
 <p>
   <strong>Language:</strong><br/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
 </p>
 
 <p>
-  <strong>Framework:</strong><br/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Laravel-F05340?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/WXT-5A67D8?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <strong>FE:</strong><br/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" />
 </p>
 
 <p>
-  <strong>DevOps & Tools:</strong><br/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <strong>BE:</strong><br/>
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/Laravel-F05340?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
+</p>
+
+<p>
+  <strong>Database & Infra:</strong><br/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
 </p>
 
 </div>
 
-## 📊 GitHub Analytics
+## 📊 Stats
 
 <div align="center">
 
@@ -62,13 +68,13 @@
 
 </div>
 
-## Recent Projects
+## Projects
 
-- [Discord Bot](https://github.com/mpc-ou/discord-bot): A powerful Discord bot built on Node.js with a Fastify-based web dashboard. It supports playing music, managing schedules and time tracking, and provides a modern interface for easy control and monitoring.
-- [MPC Extension](https://github.com/mpc-ou/mpc-extension): A browser extension built with **WXT** to support students at OU. It helps calculate grades, manage study schedules, and provides useful tools for student
-- [DevTab](https://github.com/Riikon-Team/DevTab): A browser extension that personalizes the new tab page, offering useful features and tools designed to support developers in their daily work.
-- [Rent House App](https://github.com/konnn04/rent-house-app.git): A mobile application for renting houses.
-- [Foxy Exam](https://github.com/konnn04/foxy-exam): An intelligent examination system powered by AI, designed for the 2026 graduation thesis. It provides smart features such as automated exam management, AI-assisted evaluation, and a modern dashboard to support students and
+- **[Foxy Exam](https://github.com/konnn04/foxy-exam)** — Online exam platform with AI proctoring: WebRTC camera/screen streaming, violation detection, evidence recording, microservices architecture *(graduation thesis 2026)*
+- **[Discord Bot](https://github.com/mpc-ou/discord-bot)** — Modular Discord bot built with NestJS + React/Vite dashboard; supports music, moderation, XP system, and meeting scheduling
+- **[MPC Extension](https://github.com/mpc-ou/mpc-extension)** — Browser extension for OU students: GPA calculator, study planner, schedule tools — 500+ users, published on Chrome Web Store
+- **[QiQi Studio](https://github.com/konnn04/qiqi-studio)** *(private)* — Web app for a photography studio built with Next.js + NestJS; includes photo album management and a landing page
+- **[MPC Web](https://github.com/konnn04/mpc-web)** — Club landing page with member info management and post features
 
 <!-- ## 📈 Contribution Graph
 
@@ -78,7 +84,7 @@
 
 --- -->
 
-## 🐍 Contribution Snake
+## 🐍 Contribution
 
 <div align="center">
   <picture>
@@ -90,21 +96,13 @@
 
 ---
 
-## 🤝 Connect With Me
+## 🤝 Connect
 
 <p align="center">
-  <a href="https://www.konnn04.dev/">
-    <img src="https://img.shields.io/badge/Website-58A6FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
-  </a>
-  <a href="https://www.linkedin.com/in/konnn04/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://facebook.com/konnn.1011">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
-  </a>
-  <a href="mailto:trieukon1011@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <a href="https://www.konnn04.dev/"><img src="https://img.shields.io/badge/Portfolio-58A6FF?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/konnn04/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://facebook.com/konnn.1011"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
+  <a href="mailto:trieukon1011@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 
