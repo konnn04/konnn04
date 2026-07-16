@@ -70,11 +70,12 @@
 
 ## Projects
 
-- **[Foxy Exam](https://github.com/konnn04/foxy-exam)** — Online exam platform with AI proctoring: WebRTC camera/screen streaming, violation detection, evidence recording, microservices architecture *(graduation thesis 2026)*
-- **[Discord Bot](https://github.com/mpc-ou/discord-bot)** — Modular Discord bot built with NestJS + React/Vite dashboard; supports music, moderation, XP system, and meeting scheduling
-- **[MPC Extension](https://github.com/mpc-ou/mpc-extension)** — Browser extension for OU students: GPA calculator, study planner, schedule tools — 500+ users, published on Chrome Web Store
+- **[Konnn's Extension](https://github.com/konnn04/konnns-extension)** — A browser extension that gives you a beautiful, fully customizable new tab page.
 - **[QiQi Studio](https://github.com/konnn04/qiqi-studio)** *(private)* — Web app for a photography studio built with Next.js + NestJS; includes photo album management and a landing page
+- **[Foxy Exam](https://github.com/konnn04/foxy-exam)** — Online exam platform with AI proctoring: WebRTC camera/screen streaming, violation detection, evidence recording, microservices architecture *(graduation thesis 2026)*
 - **[MPC Web](https://github.com/konnn04/mpc-web)** — Club landing page with member info management and post features
+- **[MPC Extension](https://github.com/mpc-ou/mpc-extension)** — Browser extension for OU students: GPA calculator, study planner, schedule tools — 500+ users, published on Chrome Web Store
+- **[Discord Bot](https://github.com/mpc-ou/discord-bot)** — Modular Discord bot built with NestJS + React/Vite dashboard; supports music, moderation, XP system, and meeting scheduling
 
 <!-- ## 📈 Contribution Graph
 
