@@ -64,7 +64,7 @@
 
 <img src="https://github-readme-streak-stats-eight.vercel.app/?user=konnn04&theme=tokyonight&hide_border=true" height="150em" alt="GitHub Streak" />
 
-<img src="https://github-profile-trophy-tawny.vercel.app/?username=konnn04&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies" height="100em"/>
+<img src="https://github-trophies.devomb.com/?username=konnn04&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies" height="100em"/>
 
 </div>
 

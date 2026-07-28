@@ -16,15 +16,15 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
           options: "username=konnn04&show_icons=true&theme=tokyonight&hide_border=true&custom_title=My%20GitHub%20Stats"
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Generate top languages
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: "username=konnn04&layout=compact&theme=tokyonight&hide_border=true&langs_count=6&hide=html,css&custom_title=Top%20Languages"
